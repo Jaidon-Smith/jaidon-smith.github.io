@@ -23,6 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+logo                     : "/assets/images/bio-photo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
 # Build settings
 markdown: kramdown
