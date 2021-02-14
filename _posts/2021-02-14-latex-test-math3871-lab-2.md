@@ -10,7 +10,7 @@ toc_sticky: true
 
 ---
 
-The purpose of this blog post is really just to test the display of math, images and code on my site. I just copied a lab from MATH3871 that I had on hand.
+The purpose of this blog post is really just to test the display of math, images and code on my site. I just copied a lab from MATH3871 that I had on hand. All code is R.
 # Q1
 
 1. Using the inverse transform method, write an R function to generate a random variable
