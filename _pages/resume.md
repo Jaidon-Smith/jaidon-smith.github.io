@@ -5,7 +5,7 @@ title: "Resume"
 
 ## Education
 * Bachelor Computer Science (AI) / Bachelor Science (Statistics) at UNSW (2017-2020)
-* Completion of HSC at Gosford High(2016)
+* Completion of HSC at Gosford High School (2016)
 
 ### University Education:
 **Computing Courses**
