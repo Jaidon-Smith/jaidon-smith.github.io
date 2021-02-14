@@ -3,11 +3,11 @@ permalink: /resume/
 title: "Resume"
 ---
 
-# Education
+## Education
 * Bachelor Computer Science (AI) / Bachelor Science (Statistics) at UNSW (2017-2020)
 * Completion of HSC at Gosford High(2016)
 
-# University Education:
+### University Education:
 **Computing Courses**
 * COMP1511 Introduction to Programming
 * COMP1521 Computer Systems Fundamentals
@@ -48,4 +48,8 @@ title: "Resume"
 * ELEC1111 Elec & Telecomm Eng
 * PHYS1141 Higher Physics 1A (Special) 
 * PHYS1241 Higher Physics 1B (Special)
+
+## Work
+* UNSW Student Tutor (COMP9517 - Computer Vision) - Term 3 2019
+* Officeworks Casual Retail Technology Team Member (10/12/17 - Present)
 
