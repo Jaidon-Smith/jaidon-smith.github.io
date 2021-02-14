@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Jaidon Smith"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi! Thanks for stopping by. I'm Jaidon, a computer scientist from Australia specialising in AI and statistics."
+  bio    : "Hi! Thanks for stopping by. I'm Jaidon, computer scientist from Australia specialising in AI and statistics."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
