@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Jaidon Smith"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hi! Thanks for stopping by. I'm Jaidon, a computer scientist specialising in AI and statistics."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
