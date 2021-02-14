@@ -5,7 +5,16 @@ date: "21/09/2020"
 output: html_document
 ---
 
-The purpose of this blog post is really just to test the display of math on my site. I just copied a lab from MATH3871 that I had on hand.
+---
+title: "MathJax Test: MATH3871 Lab 2"
+date: 2019-04-18T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - test
+---
+
+The purpose of this blog post is really just to test the display of math and images on my site. I just copied a lab from MATH3871 that I had on hand.
 # Q1
 
 1. Using the inverse transform method, write an R function to generate a random variable
