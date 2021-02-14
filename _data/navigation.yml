@@ -1,6 +1,6 @@
 main:
   - title: "Resume"
-    url: /posts/
+    url: /resume/
   - title: "Blog"
     url: /categories/
   - title: "Applications"
