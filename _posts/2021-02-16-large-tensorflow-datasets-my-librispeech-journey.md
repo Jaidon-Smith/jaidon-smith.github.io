@@ -42,5 +42,5 @@ with tf.io.gfile.GFile(transcript_file) as f:
 Without this fix Librispeech just flat out doesn't work and it made me wonder why the master was in this state. I actually found an issue on github where someone had made the exact same change as me but unfortunately in their pull request had many other unrelated changes so no one had reviewed it.
 
 # Using GCP DataFlow
-When running the extration on my machine, about 10m in the apache runner announces it is out of memory. I think this pretty well confirms my suspicion that it won't really be possible to extract the dataset on a single machine. The dataset is designed to be extracted using parallel computation (ttps://www.tensorflow.org/datasets/beam_datasets), so I think the next step is to set up GCP DataFlow.
+When running the extration on my machine, about 10m in the apache runner announces it is out of memory. I think this pretty well confirms my suspicion that it won't really be possible to extract the dataset on a single machine. The dataset is designed to be extracted using parallel computation (https://www.tensorflow.org/datasets/beam_datasets), so I think the next step is to set up GCP DataFlow.
 
