@@ -5,6 +5,7 @@ categories:
 tags:
   - Audio
   - Machine Learning
+  - Google Cloud Platform
 collections:
   - Reflection
 excerpt: "Big data complicates things"
@@ -56,4 +57,7 @@ Also useful to read Apache Beam Documentation
 Uses Google Cloud Storage and gsutil
 * [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)
 * [Cloud Storage Guides](https://cloud.google.com/storage/docs/quickstart-console)
+
+In order to understand what DataFlow is achieving, I researched the underpinning idea of MapReduce
+* [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
 
