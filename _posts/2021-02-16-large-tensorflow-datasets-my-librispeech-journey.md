@@ -22,22 +22,22 @@ On my machine with mediocre internet it was estimated to take 12 hours to downlo
 # Issue 2: The extraction code had a bug
 I proceeded to run the code to download and extract the dataset.
 
-'''python
+```python
 import tensorflow_datasets as tfds
 ds = tfds.load('librispeech', split='train_clean100', shuffle_files=True, data_dir='./')
-'''
+```
 
-However this terminated unsuccessfully. I actually forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in 'tensorflow_datasets/audio/librispeech.py'.
+However this terminated unsuccessfully. I actually forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in `tensorflow_datasets/audio/librispeech.py`.
 
-'''python
+```python
 with tf.io.gfile.GFile(os.path.join(path, transcript_file)) as f:
-'''
+```
 
 changed to:
 
-'''python
+```python
 with tf.io.gfile.GFile(transcript_file) as f:
-'''
+```
 
 Without this fix Librispeech just flat out doesn't work and it made me wonder why the master was in this state. I actually found an issue on github where someone had made the exact same change as me but unfortunately in their pull request had many other unrelated changes so no one had reviewed it.  
 
