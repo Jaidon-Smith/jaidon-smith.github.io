@@ -48,3 +48,7 @@ I work through some guides to get a feel for DataFlow and Apache Beam
 * [https://cloud.google.com/dataflow/docs/quickstarts](https://cloud.google.com/dataflow/docs/quickstarts)
 * [https://cloud.google.com/dataflow/docs/quickstarts/quickstart-python](https://cloud.google.com/dataflow/docs/quickstarts/quickstart-python)
 
+Also useful to read Apache Beam Documentation
+* [https://beam.apache.org/documentation/sdks/python/](https://beam.apache.org/documentation/sdks/python/)
+* [https://beam.apache.org/documentation/programming-guide/](https://beam.apache.org/documentation/programming-guide/)
+
