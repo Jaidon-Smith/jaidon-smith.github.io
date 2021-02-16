@@ -53,3 +53,7 @@ Also useful to read Apache Beam Documentation
 * [https://beam.apache.org/documentation/sdks/python/](https://beam.apache.org/documentation/sdks/python/)
 * [https://beam.apache.org/documentation/programming-guide/](https://beam.apache.org/documentation/programming-guide/)
 
+Uses Google Cloud Storage and gsutil
+* [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)
+* [Cloud Storage Guides](https://cloud.google.com/storage/docs/quickstart-console)
+
