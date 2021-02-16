@@ -45,6 +45,8 @@ Without this fix Librispeech just flat out doesn't work and it made me wonder wh
 # Issue 3: Using GCP DataFlow
 When running the extration on my machine, about 10m in the apache runner announces it is out of memory. I think this pretty well confirms my suspicion that it won't really be possible to extract the dataset on a single machine. The dataset is designed to be extracted using parallel computation ([https://www.tensorflow.org/datasets/beam_datasets](https://www.tensorflow.org/datasets/beam_datasets)), so I think the next step is to set up GCP DataFlow.
 
+## Learning Resources for DataFlow
+
 I work through some guides to get a feel for DataFlow and Apache Beam
 * [https://console.cloud.google.com/dataflow/jobs?walkthrough_tutorial_id=dataflow_index](https://console.cloud.google.com/dataflow/jobs?walkthrough_tutorial_id=dataflow_index)
 * [https://cloud.google.com/dataflow/docs/quickstarts](https://cloud.google.com/dataflow/docs/quickstarts)
@@ -60,4 +62,7 @@ Uses Google Cloud Storage and gsutil
 
 In order to understand what DataFlow is achieving, I researched the underpinning idea of MapReduce
 * [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
+
+## Generating the LibriSpeech dataset using DataFlow
+I is now time to use the above knowledge to generate the dataset.
 
