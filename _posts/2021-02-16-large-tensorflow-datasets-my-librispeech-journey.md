@@ -64,5 +64,46 @@ In order to understand what DataFlow is achieving, I researched the underpinning
 * [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
 
 ## Generating the LibriSpeech dataset using DataFlow
-It is now time to use the above knowledge to generate the dataset.
+It is now time to use the above knowledge to generate the dataset. Like the dataflow tutorial example I execute all of these commands from the GCP console
+
+**Setting up the virtual machine**
+```
+pip3 install --upgrade virtualenv \ --user
+python3 -m virtualenv env
+source env/bin/activate
+```
+
+**Installing Apache Beam and tensorflow-datasets**
+```
+pip3 install --quiet \ apache-beam[gcp]
+pip3 install tensorflow-datasets
+```
+
+**Create Storage Bucket**
+```
+gsutil mb gs://general-304503
+```
+
+**Set some parameters**
+```
+DATASET_NAME=librispeech
+DATASET_CONFIG=
+GCP_PROJECT=general-304503
+GCS_BUCKET=gs://general-304503
+```
+
+**You will then need to create a file to tell Dataflow to install tfds on the workers**
+```
+echo "tensorflow_datasets[$DATASET_NAME]" > /tmp/beam_requirements.txt
+```
+
+**Finally, you can launch the job using the command below**
+```
+tfds build $DATASET_NAME \
+--data_dir=$GCS_BUCKET/tensorflow_datasets \
+--beam_pipeline_options=\
+"runner=DataflowRunner,project=$GCP_PROJECT,job_name=$DATASET_NAME-gen,"\
+"staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,"\
+"requirements_file=/tmp/beam_requirements.txt"
+```
 
