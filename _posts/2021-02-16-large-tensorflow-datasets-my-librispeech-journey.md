@@ -109,3 +109,22 @@ tfds build $DATASET_NAME \
 
 However only a couple of minutes into the downloading the console crashes. I think this is because the GCP console is not designed for long running computations (like downloading a dataset). What this means is I will have to download the dataset to GCP bucket from a compute instance before executing the above commands.
 
+According to the [GCP compute engine documentation for mounting a bucket](https://cloud.google.com/compute/docs/disks/gcs-buckets#mount_bucket) I have to install [gcsfuse](https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md)
+
+**Add the gcsfuse distribution URL as a package source and import its public key:**
+```
+export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
+echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | sudo tee /etc/apt/sources.list.d/gcsfuse.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+```
+
+**Update the list of packages available and install gcsfuse**
+```
+sudo apt-get update
+sudo apt-get install gcsfuse
+```
+
+
+
+
+
