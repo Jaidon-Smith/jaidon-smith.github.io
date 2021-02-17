@@ -124,6 +124,12 @@ sudo apt-get update
 sudo apt-get install gcsfuse
 ```
 
+**Mount the storage bucket**
+```
+mkdir ~/general-304503
+gcsfuse general-304503 ~/general-304503
+```
+
 
 
 
