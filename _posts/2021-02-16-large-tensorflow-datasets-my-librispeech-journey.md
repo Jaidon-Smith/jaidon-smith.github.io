@@ -132,7 +132,7 @@ gcsfuse general-304503 ~/general-304503
 
 After mounting I found that I could not interact with the files in the bucket. I needed to change the storage API permissions in the compute engine from Read Only to Full
 
-![image2](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image1.jpg)
+![image2](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image2.jpg)
 
 
 
