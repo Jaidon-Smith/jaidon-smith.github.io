@@ -107,3 +107,5 @@ tfds build $DATASET_NAME \
 "requirements_file=/tmp/beam_requirements.txt"
 ```
 
+However only a couple of minutes into the downloading the console crashes. I think this is because the GCP console is not designed for long running computations (like downloading a dataset). What this means is I will have to download the dataset to GCP bucket from a compute instance before executing the above commands.
+
