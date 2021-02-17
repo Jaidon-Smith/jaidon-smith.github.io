@@ -64,5 +64,5 @@ In order to understand what DataFlow is achieving, I researched the underpinning
 * [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
 
 ## Generating the LibriSpeech dataset using DataFlow
-I is now time to use the above knowledge to generate the dataset.
+It is now time to use the above knowledge to generate the dataset.
 
