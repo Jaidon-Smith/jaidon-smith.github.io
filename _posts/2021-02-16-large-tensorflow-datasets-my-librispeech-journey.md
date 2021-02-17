@@ -130,6 +130,8 @@ mkdir ~/general-304503
 gcsfuse general-304503 ~/general-304503
 ```
 
+![image1](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey)
+
 
 
 
