@@ -17,4 +17,4 @@ toc_sticky: true
 In a previous post I discussed my efforts to get the librispeech dataset working. In this post I wanted to discuss some of the other datasets.
 
 # ljspeech
-* Was generating for about 10m with no output until had an exception that I hadn't installed pydub
+* Was generating for about 10m with no output until had an exception that I hadn't installed pydub.
