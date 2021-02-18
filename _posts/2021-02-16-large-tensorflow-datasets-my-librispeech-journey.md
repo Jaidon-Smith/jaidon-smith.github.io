@@ -135,9 +135,11 @@ After mounting I found that I could not interact with the files in the bucket. I
 
 ![image2](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image2.jpg)
 
-After getting the mounting to work I attempted to copy the downloaded dataset to the bucket however it was extremely slow (Estimated to take 48h). I think this is because the gcsfuse and probably just gcs buckets in general are not very efficient when it comes to many small files (After extraction there are almost 300,000 files). I don't think buckets are going to be appropiate so I will look into using disks with DataFlow.
+After getting the mounting to work I attempted to copy the downloaded dataset to the bucket however it was extremely slow (Estimated to take 48h). I think this is because the gcsfuse and probably just gcs buckets in general are not very efficient when it comes to many small files (After extraction there are almost 300,000 files). I looked briefly into using disks with DataFlow but I am not sure how to mount the same disk to different workers and in fact the documentation seems to suggest this is not possible.
 
-## DataFlow with Disks
+> Persistent disk resources
+The Dataflow service is currently limited to 15 persistent disks per worker instance when running a streaming job. Each persistent disk is local to an individual Compute Engine virtual machine. Your job may not have more workers than persistent disks; a 1:1 ratio between workers and disks is the minimum resource allotment.
+
 
 
 
