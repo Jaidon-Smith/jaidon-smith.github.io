@@ -1,7 +1,7 @@
 ---
 title: "MathJax Test: MATH3871 Lab 2"
 categories:
-  - Post
+  - Posts
 tags:
   - Test
   - Jekyll
