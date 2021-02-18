@@ -1,7 +1,7 @@
 ---
 title: "Jekyll Test: Special functionality reference"
 categories:
-  - Post
+  - Posts
 tags:
   - Test
   - Jekyll
