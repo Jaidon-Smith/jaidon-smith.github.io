@@ -142,6 +142,21 @@ The Dataflow service is currently limited to 15 persistent disks per worker inst
 
 Instead I am going to see what I can do to optimise gcsfuse.
 
+## Using gsutil to upload to a bucket
+In my research to see if there was some option for more efficient upload in gcsfuse, I realised that I could perform the task with ```gsutil cp```.
+I copy the code from the documentation given here: [https://cloud.google.com/storage/docs/gsutil/commands/cp](https://cloud.google.com/storage/docs/gsutil/commands/cp).
+
+Use the -r option to copy an entire directory tree. For example, to upload the directory tree dir:
+
+```
+gsutil cp -r dir gs://my-bucket
+```
+If you have a large number of files to transfer, you can perform a parallel multi-threaded/multi-processing copy using the top-level gsutil -m option (see gsutil help options):
+
+```
+gsutil -m cp -r dir gs://my-bucket
+```
+
 
 
 
