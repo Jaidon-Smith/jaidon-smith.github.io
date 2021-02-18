@@ -1,9 +1,10 @@
 ---
 title: "MathJax Test: MATH3871 Lab 2"
 categories:
-  - Jekyll
+  - Post
 tags:
   - Test
+  - Jekyll
 excerpt: "Test post for math, images and code."
 toc: true
 toc_sticky: true
