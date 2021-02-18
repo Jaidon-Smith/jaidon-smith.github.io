@@ -140,6 +140,8 @@ After getting the mounting to work I attempted to copy the downloaded dataset to
 > Persistent disk resources
 The Dataflow service is currently limited to 15 persistent disks per worker instance when running a streaming job. Each persistent disk is local to an individual Compute Engine virtual machine. Your job may not have more workers than persistent disks; a 1:1 ratio between workers and disks is the minimum resource allotment.
 
+Instead I am going to see what I can do to optimise gcsfuse.
+
 
 
 
