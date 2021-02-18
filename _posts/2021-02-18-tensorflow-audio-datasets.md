@@ -1,7 +1,7 @@
 ---
 title: "(Under Construction) TensorFlow Audio Datasets"
 categories:
-  - posts
+  - Posts
 tags:
   - Audio
   - Machine Learning
