@@ -63,7 +63,7 @@ Uses Google Cloud Storage and gsutil
 In order to understand what DataFlow is achieving, I researched the underpinning idea of MapReduce
 * [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
 
-## Generating the LibriSpeech dataset using DataFlow
+# Generating the LibriSpeech dataset using DataFlow
 It is now time to use the above knowledge to generate the dataset. Like the dataflow tutorial example I execute all of these commands from the GCP console
 
 **Setting up the virtual machine**
@@ -107,6 +107,7 @@ tfds build $DATASET_NAME \
 "requirements_file=/tmp/beam_requirements.txt"
 ```
 
+## Google Cloud Storage Buckets
 However only a couple of minutes into the downloading the console crashes. I think this is because the GCP console is not designed for long running computations (like downloading a dataset). What this means is I will have to download the dataset to GCP bucket from a compute instance before executing the above commands.
 
 According to the [GCP compute engine documentation for mounting a bucket](https://cloud.google.com/compute/docs/disks/gcs-buckets#mount_bucket) I have to install [gcsfuse](https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md)
@@ -133,6 +134,10 @@ gcsfuse general-304503 ~/general-304503
 After mounting I found that I could not interact with the files in the bucket. I needed to change the storage API permissions in the compute engine from Read Only to Full
 
 ![image2](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image2.jpg)
+
+After getting the mounting to work I attempted to copy the downloaded dataset to the bucket however it was extremely slow. I think this is because the gcsfuse and probably just gcs buckets in general are not very efficient when it comes to many small files. I don't think buckets are going to be appropiate so I will look into using disks with DataFlow.
+
+## DataFlow with Disks
 
 
 
