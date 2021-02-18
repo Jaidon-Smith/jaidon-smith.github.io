@@ -156,7 +156,7 @@ If you have a large number of files to transfer, you can perform a parallel mult
 ```
 gsutil -m cp -r dir gs://my-bucket
 ```
-
+I executed the second command to upload the downloads from the disk to the bucket and it took about 20m so this is much better.
 
 
 
