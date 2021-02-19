@@ -167,9 +167,7 @@ My first attempt yielded this exception:
 
 I realised that this meant that I needed to define a region for the DataFlow execution. This wasn't in the pipeline options in the [tensorflow apache guide](https://www.tensorflow.org/datasets/beam_datasets) but was in the dataflow tutorial.
 
-Here is the change that needs to be made to the `tfds build` command to define the region.
-
-**Finally, you can launch the job using the command below**
+**Here is the change that needs to be made to the `tfds build` command to define the region:**
 ```
 tfds build $DATASET_NAME \
 --data_dir=$GCS_BUCKET/tensorflow_datasets \
