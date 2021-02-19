@@ -64,29 +64,31 @@ As an aside the code only works with tensorflow v1, this is the exception when u
 ## Characters That Are in My Dataset but Not in Wiki40b
 My text contains 13,305 unique characters, of which only 3,822 could appear in wiki40b tokenization.
 
-Here are some of the characters:
-* ('曠', 4245),
-* ('昿', 4246),
-* ('曦', 4247),
-* ('曩', 4248),
-* ('曵', 4250),
-* ('曷', 4251),
-* ('朏', 4252),
-* ('朖', 4253),
-* ('朞', 4254),
-* ('朦', 4255),
-* ('朮', 4258),
-* ('朿', 4259),
-* ('朶', 4260),
-* ('杁', 4261),
-* ('朸', 4262),
-* ('朷', 4263),
-* ('杆', 4264),
-* ('杞', 4265),
-* ('杠', 4266),
-* ('杙', 4267),
-* ('杤', 4269),
-* ('枉', 4270),
+Here are some of the characters that could not be represented:
+* ('曠', 4245)
+* ('昿', 4246)
+* ('曦', 4247)
+* ('曩', 4248)
+* ('曵', 4250)
+* ('曷', 4251)
+* ('朏', 4252)
+* ('朖', 4253)
+* ('朞', 4254)
+* ('朦', 4255)
+* ('朮', 4258)
+* ('朿', 4259)
+* ('朶', 4260)
+* ('杁', 4261)
+* ('朸', 4262)
+* ('朷', 4263)
+* ('杆', 4264)
+* ('杞', 4265)
+* ('杠', 4266)
+* ('杙', 4267)
+* ('杤', 4269)
+* ('枉', 4270)
+
+They are mostly obscure kanji which are used in alternate spellings or domain specific.
 
 
 
