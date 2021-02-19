@@ -121,7 +121,7 @@ Here are some of the characters that could not be represented:
  
 While containing some rarer Japanese kana such as 'ヰ' and 'ヲ', for the most part this list mostly consists of non Japanese characters.
  
-## Implication of above analysis
+## Implications of above analysis
 The above analysis I think confirms my concern that it may be necessary to redo the SentencePiece tokenisation for my use. Japanese is a very character rich language unlike English and this tokenisation does not cover enough of the rarer characters. I think what may have occured is that the tokenization was based on a small subset of wiki40b which is fine for English but may not cover enough characters for Japanese.
  
  All that being said, it still may be possible to just add the extra characters to the wiki40b tokenization so I have to decide now between doing that or performing the SentencePiece from scratch.
