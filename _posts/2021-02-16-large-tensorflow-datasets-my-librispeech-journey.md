@@ -165,6 +165,47 @@ My first attempt yielded this exception
 ![image3](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image3.jpg)
 I realised that this meant that I needed to define a region for the DataFlow execution. This wasn't in the pipeline options in the [tensorflow apache guide](https://www.tensorflow.org/datasets/beam_datasets) but was in the dataflow tutorial.
 
+Here are all of the commands that get executed to set up the DataFlow job.
+
+**Setting up the virtual machine**
+```
+pip3 install --upgrade virtualenv \--user
+python3 -m virtualenv env
+source env/bin/activate
+```
+
+**Installing Apache Beam and tensorflow-datasets**
+```
+pip3 install apache-beam[gcp]
+pip3 install tensorflow-datasets
+```
+
+**(Optional) Create Storage Bucket**
+gsutil mb gs://general-304503
+
+**Set parameters**
+```
+DATASET_NAME=librispeech
+DATASET_CONFIG=
+GCP_PROJECT=general-304503
+GCS_BUCKET=gs://general-304503
+```
+
+**You will then need to create a file to tell Dataflow to install tfds on the workers**
+```
+echo "tensorflow_datasets[$DATASET_NAME]" > /tmp/beam_requirements.txt
+```
+
+**Finally, you can launch the job using the command below**
+```
+tfds build $DATASET_NAME \
+--data_dir=$GCS_BUCKET/tensorflow_datasets \
+--beam_pipeline_options=\
+"runner=DataflowRunner,project=$GCP_PROJECT,job_name=$DATASET_NAME-gen,"\
+"staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,"\
+"requirements_file=/tmp/beam_requirements.txt,region=us-central1"
+```
+
 
 
 
