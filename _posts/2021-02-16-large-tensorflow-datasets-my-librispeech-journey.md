@@ -218,6 +218,14 @@ This is the exception that occured:
 
 ![image5](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image5.jpg)
 
+Before I start trying to debug this, I will check if installing tfds-nightly instead of tensorflow-datasets will fix the problem. That will executing these commands.
+
+```
+pip3 uninstall tensorflow-datasets
+pip3 install tfds-nightly
+echo "tfds-nightly[$DATASET_NAME]" > /tmp/beam_requirements.txt
+```
+
 
 
 
