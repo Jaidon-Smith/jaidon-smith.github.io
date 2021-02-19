@@ -158,6 +158,9 @@ gsutil -m cp -r dir gs://my-bucket
 ```
 I executed the second command to upload the downloaded dataset from the disk to the bucket and it took about 20m so this is much better.
 
+## Peforming the extraction on DataFlow
+I first tried imitating the DataFlow tutorial where all commands were executed from the console but I found that I could not install tensorflow-datasets there. I discovered that the DataFlow tutorial can actually also be exectuted from a virtual machine with API permissions so going forward thats what I am using.
+
 
 
 
