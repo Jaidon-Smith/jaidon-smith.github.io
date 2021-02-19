@@ -23,5 +23,7 @@ Getting the tokens from Wiki40b
 
 As an aside the code only works with tensorflow v1, 
 
+![image1](/assets/images/2021-02-19-building-japanese-sentence-piece-tokenization/image1.jpg)
+
 
 
