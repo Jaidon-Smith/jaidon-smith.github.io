@@ -162,7 +162,9 @@ I executed the second command to upload the downloaded dataset from the disk to 
 I first tried imitating the DataFlow tutorial where all commands were executed from the console but I found that I could not install tensorflow-datasets there. I discovered that the DataFlow tutorial can actually also be exectuted from a virtual machine with API permissions so going forward thats what I am using.
 
 My first attempt yielded this exception
+
 ![image3](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image3.jpg)
+
 I realised that this meant that I needed to define a region for the DataFlow execution. This wasn't in the pipeline options in the [tensorflow apache guide](https://www.tensorflow.org/datasets/beam_datasets) but was in the dataflow tutorial.
 
 Here are all of the commands that get executed to set up the DataFlow job.
