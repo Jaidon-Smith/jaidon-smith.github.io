@@ -68,14 +68,14 @@ It is now time to use the above knowledge to generate the dataset. Like the data
 
 **Setting up the virtual machine**
 ```
-pip3 install --upgrade virtualenv \ --user
+pip3 install --upgrade virtualenv \--user
 python3 -m virtualenv env
 source env/bin/activate
 ```
 
 **Installing Apache Beam and tensorflow-datasets**
 ```
-pip3 install --quiet \ apache-beam[gcp]
+pip3 install apache-beam[gcp]
 pip3 install tensorflow-datasets
 ```
 
@@ -84,7 +84,7 @@ pip3 install tensorflow-datasets
 gsutil mb gs://general-304503
 ```
 
-**Set some parameters**
+**Set parameters**
 ```
 DATASET_NAME=librispeech
 DATASET_CONFIG=
@@ -167,38 +167,7 @@ My first attempt yielded this exception:
 
 I realised that this meant that I needed to define a region for the DataFlow execution. This wasn't in the pipeline options in the [tensorflow apache guide](https://www.tensorflow.org/datasets/beam_datasets) but was in the dataflow tutorial.
 
-Here are all of the commands that get executed to set up the DataFlow job.
-
-**Setting up the virtual machine**
-```
-pip3 install --upgrade virtualenv \--user
-python3 -m virtualenv env
-source env/bin/activate
-```
-
-**Installing Apache Beam and tensorflow-datasets**
-```
-pip3 install apache-beam[gcp]
-pip3 install tensorflow-datasets
-```
-
-**(Optional) Create Storage Bucket**
-```
-gsutil mb gs://general-304503
-```
-
-**Set parameters**
-```
-DATASET_NAME=librispeech
-DATASET_CONFIG=
-GCP_PROJECT=general-304503
-GCS_BUCKET=gs://general-304503
-```
-
-**You will then need to create a file to tell Dataflow to install tfds on the workers**
-```
-echo "tensorflow_datasets[$DATASET_NAME]" > /tmp/beam_requirements.txt
-```
+Here is the change that needs to be made to the `tfds build` command to define the region.
 
 **Finally, you can launch the job using the command below**
 ```
