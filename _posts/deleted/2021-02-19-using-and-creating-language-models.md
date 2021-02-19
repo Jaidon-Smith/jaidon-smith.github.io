@@ -7,7 +7,7 @@ tags:
   - Machine Learning
 collections:
   - Reflection
-excerpt: "Big data complicates things"
+excerpt: "Language models are important but not for my current project"
 toc: true
 toc_sticky: true
 ---
