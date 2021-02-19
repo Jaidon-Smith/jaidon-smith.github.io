@@ -211,6 +211,10 @@ tfds build $DATASET_NAME \
 Finally it is about to create the job on GCP, however about 16m into the execution there is an exception. Here is the graph where the blocks that failed are visible:
 ![image4](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image4.jpg)
 
+This is the exception that occured:
+![image5](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image5.jpg)
+
+
 
 
 
