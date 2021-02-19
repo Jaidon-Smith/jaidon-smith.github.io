@@ -181,7 +181,9 @@ pip3 install tensorflow-datasets
 ```
 
 **(Optional) Create Storage Bucket**
+```
 gsutil mb gs://general-304503
+```
 
 **Set parameters**
 ```
