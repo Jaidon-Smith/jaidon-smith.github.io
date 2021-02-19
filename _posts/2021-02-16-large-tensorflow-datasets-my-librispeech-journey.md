@@ -131,7 +131,7 @@ mkdir ~/general-304503
 gcsfuse general-304503 ~/general-304503
 ```
 
-After mounting I found that I could not interact with the files in the bucket. I needed to change the storage API permissions in the compute engine from Read Only to Full
+After mounting I found that I could not interact with the files in the bucket. I needed to change the storage API permissions in the compute engine from Read Only to Full:
 
 ![image2](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image2.jpg)
 
@@ -161,7 +161,7 @@ I executed the second command to upload the downloaded dataset from the disk to 
 ## Peforming the generation on DataFlow
 I first tried imitating the DataFlow tutorial where all commands were executed from the console but I found that I could not install tensorflow-datasets there. I discovered that the DataFlow tutorial can actually also be exectuted from a virtual machine with API permissions so going forward thats what I am using.
 
-My first attempt yielded this exception
+My first attempt yielded this exception:
 
 ![image3](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image3.jpg)
 
