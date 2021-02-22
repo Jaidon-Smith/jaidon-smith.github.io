@@ -129,7 +129,7 @@ The above analysis I think confirms my concern that it may be necessary to redo 
  # Building a SentencePiece Tokenization
  SentencePiece may need to be installed with pip.
  ```
- !pip install sentencepiece
+ pip install sentencepiece
  ```
  
 I have my text dataset saved on Google Drive as about 1200 text files
