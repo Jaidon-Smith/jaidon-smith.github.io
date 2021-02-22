@@ -127,7 +127,20 @@ The above analysis I think confirms my concern that it may be necessary to redo 
  All that being said, it still may be possible to just add the extra characters to the wiki40b tokenization so I have to decide now between doing that or performing the SentencePiece from scratch.
  
  # Building a SentencePiece Tokenization
-
-
+I have my text dataset saved on Google Drive as about 1200 text files
+```python
+import os
+files = os.listdir('/gdrive/MyDrive/Japanese/Bible/chapters')
+files = ['/gdrive/MyDrive/Japanese/Bible/chapters/' + i for i in files if '.txt' in i]
+```
+I then train an SPM model, with 32k pieces like wiki40b in order to compare them
+```python
+spm.SentencePieceTrainer.train(input=files, model_prefix='m', vocab_size=32000)
+```
+The model can be loaded and the tokens can be inspected
+```python
+sp = spm.SentencePieceProcessor(model_file='m.model')
+tokens = sp.id_to_piece(list(range(32000)))
+```
 
 
