@@ -127,6 +127,11 @@ The above analysis I think confirms my concern that it may be necessary to redo 
  All that being said, it still may be possible to just add the extra characters to the wiki40b tokenization so I have to decide now between doing that or performing the SentencePiece from scratch.
  
  # Building a SentencePiece Tokenization
+ SentencePiece may need to be installed with pip.
+ ```
+ !pip install sentencepiece
+ ```
+ 
 I have my text dataset saved on Google Drive as about 1200 text files
 ```python
 import os
