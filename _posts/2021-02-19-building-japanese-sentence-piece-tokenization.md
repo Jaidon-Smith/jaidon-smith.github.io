@@ -152,5 +152,9 @@ This does work and builds up 32k tokens but it only considers a subset of the te
 What I have done is prepare the list of characters that appear in my text (called `the_list_names`) and I am going to force the tokenization to be exactly these characters.
 I admit that I no longer need SentencePiece for this kind of tokenization but it means that my later work could support it just by changing the model it loads.
 
+> Note: was `the_list_names_space_dropped` is `the_list_names` with space token dropped.
+```python
+spm.SentencePieceTrainer.train(input=files, model_prefix='letters', vocab_size=13310, user_defined_symbols=the_list_names_space_dropped)
+```
 # SentencePiece in TensorFlow
 
