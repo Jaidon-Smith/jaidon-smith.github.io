@@ -135,6 +135,7 @@ files = ['/gdrive/MyDrive/Japanese/Bible/chapters/' + i for i in files if '.txt'
 ```
 I then train an SPM model, with 32k pieces like wiki40b in order to compare them
 ```python
+import sentencepiece as spm
 spm.SentencePieceTrainer.train(input=files, model_prefix='m', vocab_size=32000)
 ```
 The model can be loaded and the tokens can be inspected
