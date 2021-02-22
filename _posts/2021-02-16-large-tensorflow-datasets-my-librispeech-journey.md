@@ -223,7 +223,7 @@ echo 'tfds-nightly[$DATASET_NAME]' > /tmp/beam_requirements.txt
 
 python -m tensorflow_datasets.scripts.download_and_prepare \
   --datasets=$DATASET_NAME \
-  --data_dir=gs://GCS_BUCKET/tensorflow_datasets \
+  --data_dir=gs://$GCS_BUCKET/tensorflow_datasets \
   --beam_pipeline_options="project=$GCP_PROJECT,job_name=test2,staging_location=gs://$GCS_BUCKET/binaries,temp_location=gs://$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1"
 ```
 
