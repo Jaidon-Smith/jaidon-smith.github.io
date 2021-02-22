@@ -193,6 +193,13 @@ pip3 install tfds-nightly
 echo "tfds-nightly[$DATASET_NAME]" > /tmp/beam_requirements.txt
 ```
 
+I however get this error:
+> ERROR: Could not find a version that satisfies the requirement tfds-nightly[librispeech]
+
+**What I am going to try is installing the entirety of tfds-nightly on the workers.**
+```
+echo "tfds-nightly" > /tmp/beam_requirements.txt
+```
 
 
 
