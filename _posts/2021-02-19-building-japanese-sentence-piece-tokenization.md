@@ -148,5 +148,9 @@ The model can be loaded and the tokens can be inspected
 sp = spm.SentencePieceProcessor(model_file='m.model')
 tokens = sp.id_to_piece(list(range(32000)))
 ```
+This does work and builds up 32k tokens but it only considers a subset of the text and as a result about 11k characters in my dataset are not representable.
+What I have done is prepare the list of characters that appear in my text (called `the_list_names`) and I am going to force the tokenization to be exactly these characters.
+I admit that I no longer need SentencePiece for this kind of tokenization but it means that my later work could support it just by changing the model it loads.
 
+# SentencePiece in TensorFlow
 
