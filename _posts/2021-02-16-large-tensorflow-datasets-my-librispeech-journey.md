@@ -201,7 +201,27 @@ I however get this error:
 echo "tfds-nightly" > /tmp/beam_requirements.txt
 ```
 
+Still returns errors. I think what is happening is that the tfds command is not updated when I uninstall tensorflow-datasets and install tfds-nightly. So I need to look at doing this without the tfds command.
 
+I found instructions to do this in the [ReadMe for Google Research text-to-text transfer transformer](https://github.com/google-research/text-to-text-transfer-transformer#c4).
+
+```
+pip install tfds-nightly[c4]
+echo 'tfds-nightly[c4]' > /tmp/beam_requirements.txt
+python -m tensorflow_datasets.scripts.download_and_prepare \
+  --datasets=c4/en \
+  --data_dir=gs://$MY_BUCKET/tensorflow_datasets \
+  --beam_pipeline_options="project=$MY_PROJECT,job_name=c4,staging_location=gs://$MY_BUCKET/binaries,temp_location=gs://$MY_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,experiments=shuffle_mode=service,region=$MY_REGION"
+```
+They used a different dataset but it can be modified to fit my use.
+```
+pip install tfds-nightly[c4]
+echo 'tfds-nightly[c4]' > /tmp/beam_requirements.txt
+python -m tensorflow_datasets.scripts.download_and_prepare \
+  --datasets=c4/en \
+  --data_dir=gs://$MY_BUCKET/tensorflow_datasets \
+  --beam_pipeline_options="project=$MY_PROJECT,job_name=c4,staging_location=gs://$MY_BUCKET/binaries,temp_location=gs://$MY_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,experiments=shuffle_mode=service,region=$MY_REGION"
+```
 
 
 
