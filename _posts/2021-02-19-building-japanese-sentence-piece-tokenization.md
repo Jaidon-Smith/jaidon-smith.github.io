@@ -163,6 +163,8 @@ Documentation for using SentencePiece in TensorFlow:
 
 Imports
 ```python
+!pip install --quiet tensorflow-text
+
 import tensorflow_text as text
 from tensorflow.python.platform import gfile
 ```
