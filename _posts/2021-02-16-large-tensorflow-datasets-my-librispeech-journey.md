@@ -227,11 +227,18 @@ python -m tensorflow_datasets.scripts.download_and_prepare \
   --beam_pipeline_options="project=$GCP_PROJECT,job_name=test2,staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1"
 ```
 
-It is still failing, I now think that the actual installation of tfds-nightly on the workers is failing. This is what it is trying to execute.
+It is still failing. I now think that is is the actual installation of tfds-nightly on the workers that is failing. This is what it is trying to execute.
 ```
 INFO[stager.py]: Executing command: ['/home/jsjsrobert500/env/bin/python', '-m', 'pip', 'download', '--dest', '/tmp/dataflow-requirements-cache', '-r', '/tmp/beam_requirements.txt', '--exists-action', 'i', '--no-bin
 ary', ':all:']
 ```
+I test the corresponding command in a terminal.
+```
+echo "tfds-nightly[$DATASET_NAME]" > /tmp/beam_requirements.txt
+
+/home/jsjsrobert500/env/bin/python -m pip download --dest /tmp/dataflow-requirements-cache -r /tmp/beam_requirements.txt --exists-action i --no-binary :all:
+```
+If the beam requirements is `tensorflow-datasets` there is not problem but with the nightly we get these errors:
 
 
 
