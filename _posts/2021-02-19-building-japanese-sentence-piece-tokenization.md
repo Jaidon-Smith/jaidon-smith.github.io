@@ -161,12 +161,8 @@ Documentation for using SentencePiece in TensorFlow:
 * [https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md](https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md)
 * [https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md](https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md)
 
-Installing and importing
 ```python
-!pip install sentencepiece
-
 import tensorflow_text as text
-import sentencepiece as spm
 from tensorflow.python.platform import gfile
 ```
 Getting the tokenizer
