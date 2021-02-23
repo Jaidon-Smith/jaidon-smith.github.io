@@ -253,7 +253,9 @@ has 'tfds-nightly', but metadata has 'tensorflow-datasets'
 ```
 
 I found a [github issue](https://github.com/tensorflow/datasets/issues/2827) where someone mentioned a similar problem involving metadata. One of the suggested solutions was downgrading pip to a version lower than 20.
-
+```
+/home/jsjsrobert500/env/bin/python -m pip install pip==19.0.1
+```
 ![image7](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image7.jpg)
 
 After doing this pip no longer rejects all of the nightly packages.
