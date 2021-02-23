@@ -1,1 +1,15 @@
-
+---
+title: "Preparing Japanese Audio Datasets for TensorFlow"
+categories:
+  - Posts
+tags:
+  - Natural Language Processing
+  - Machine Learning
+  - Japanese
+collections:
+  - Reflection
+excerpt: "Preparing JSUT and Mozilla Common Voice for TensorFlow"
+toc: true
+toc_sticky: true
+---
+> Note: The purpose of this post is as a personal reflection and not as a tutorial
