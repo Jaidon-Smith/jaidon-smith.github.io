@@ -240,6 +240,8 @@ echo "tfds-nightly[$DATASET_NAME]" > /tmp/beam_requirements.txt
 ```
 If the beam requirements is `tensorflow-datasets` there is not problem but with the nightly we get these errors:
 
+![image6](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image6.jpg)
+
 
 
 
