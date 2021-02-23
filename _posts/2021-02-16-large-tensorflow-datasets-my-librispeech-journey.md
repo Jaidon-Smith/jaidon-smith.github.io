@@ -242,6 +242,16 @@ If the beam requirements is `tensorflow-datasets` there is not problem but with 
 
 ![image6](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image6.jpg)
 
+Now it is easier to see what is happening. Clearly pip is iterating through the nightly releases and rejecting each of them for some reason. Here is a full printout of one of the warnings:
+```
+Using cached tfds-nightly-4.2.0.dev202102220106.tar.gz (3.1 MB)
+  WARNING: Generating metadata for package tfds-nightly produced metadata for project name tensorflow-datasets. Fix your #egg=tfds-nightly fragments.
+WARNING: Discarding https://files.pythonhosted.org/packages/89/71/fa9a318e54c55bc8cfa7c2dad06d0f592c00e25ce17064f8ed01b1db4b27/tfds-nightly-4.2.0.dev202102220106.tar.gz#sha256=1a6eb0e1e9647dffaaa6c83d380807c1f47d69e
+9d242c333e42d4304f000c1d3 (from https://pypi.org/simple/tfds-nightly/) (requires-python:>=3.6). Requested tensorflow-datasets from https://files.pythonhosted.org/packages/89/71/fa9a318e54c55bc8cfa7c2dad06d0f592c00e2
+5ce17064f8ed01b1db4b27/tfds-nightly-4.2.0.dev202102220106.tar.gz#sha256=1a6eb0e1e9647dffaaa6c83d380807c1f47d69e9d242c333e42d4304f000c1d3 (from -r /tmp/beam_requirements.txt (line 1)) has inconsistent name: filename 
+has 'tfds-nightly', but metadata has 'tensorflow-datasets'
+```
+
 
 
 
