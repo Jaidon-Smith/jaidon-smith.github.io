@@ -157,4 +157,7 @@ I admit that I no longer need SentencePiece for this kind of tokenization but it
 spm.SentencePieceTrainer.train(input=files, model_prefix='letters', vocab_size=13310, user_defined_symbols=the_list_names_space_dropped)
 ```
 # SentencePiece in TensorFlow
+Documentation for using SentencePiece in TensorFlow:
+* https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md
+* https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md
 
