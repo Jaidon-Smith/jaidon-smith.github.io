@@ -158,6 +158,6 @@ spm.SentencePieceTrainer.train(input=files, model_prefix='letters', vocab_size=1
 ```
 # SentencePiece in TensorFlow
 Documentation for using SentencePiece in TensorFlow:
-* https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md
-* https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md
+* [https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md](https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/SentencepieceTokenizer.md)
+* [https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md](https://github.com/tensorflow/text/blob/master/docs/api_docs/python/text/Tokenizer.md)
 
