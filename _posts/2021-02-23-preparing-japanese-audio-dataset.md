@@ -17,4 +17,4 @@ toc_sticky: true
 # JSUT
 [https://sites.google.com/site/shinnosuketakamichi/publication/jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
 
-[TensorFlow Datasets writing custome datasets](https://www.tensorflow.org/datasets/add_dataset)
+[TensorFlow Datasets writing custom datasets](https://www.tensorflow.org/datasets/add_dataset)
