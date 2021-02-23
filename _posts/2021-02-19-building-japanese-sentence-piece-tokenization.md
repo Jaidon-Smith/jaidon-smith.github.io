@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Building a Japanese SentencePiece Tokenization"
+title: "Building a Japanese SentencePiece Tokenization"
 categories:
   - Posts
 tags:
