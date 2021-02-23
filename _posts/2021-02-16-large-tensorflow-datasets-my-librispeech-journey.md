@@ -252,6 +252,11 @@ WARNING: Discarding https://files.pythonhosted.org/packages/89/71/fa9a318e54c55b
 has 'tfds-nightly', but metadata has 'tensorflow-datasets'
 ```
 
+I found a [github issue](https://github.com/tensorflow/datasets/issues/2827) where someone mentioned the metadata issue. One of the suggested solutions was downgrading pip to a version lower than 20.
+
+![image7](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image7.jpg)
+
+After doing this pip no longer rejects all of the nightly packages.
 
 
 
