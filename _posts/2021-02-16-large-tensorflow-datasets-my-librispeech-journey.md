@@ -273,6 +273,7 @@ However after running this and checking the logs I realised that the workers can
 [This post](https://adamj.eu/tech/2019/03/11/pip-install-from-a-git-repository/) gives instructions for installing from a tarball so that git does not have to be installed.
 
 **Installing via tarballs**
+
 An alternative that avoids Git is to install from a tarball URL, that the major hosted Git solutions provide, for example:
 
 ```
