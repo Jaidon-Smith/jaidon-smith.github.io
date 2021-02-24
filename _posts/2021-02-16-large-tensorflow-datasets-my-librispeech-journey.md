@@ -262,5 +262,27 @@ After doing this pip no longer rejects all of the nightly packages.
 
 However the problem where the DataFlow job crashes after about 15m is still present.
 
+# Issue 4
+
+After making the change on my fork of tensorflow datasets. I put the clone command I usually use to install packages from git in the requirements:
+```
+echo "git+https://github.com/Jaidon-Smith/datasets.git" > /tmp/beam_requirements.txt
+```
+However after running this and checking the logs I realised that the workers can not use git to install so I will have to explore another way of allowing them to obtain the package.
+
+[This post](https://adamj.eu/tech/2019/03/11/pip-install-from-a-git-repository/) gives instructions for installing from a tarball so that git does not have to be installed.
+
+**Installing via tarballs**
+An alternative that avoids Git is to install from a tarball URL, that the major hosted Git solutions provide, for example:
+
+```
+# GitHub
+python -m pip install https://github.com/django/django/archive/45dfb3641aa4d9828a7c5448d11aa67c7cbd7966.tar.gz
+# GitLab
+python -m pip install https://gitlab.com/pycqa/flake8/-/archive/3.7.7/flake8-3.7.7.tar.gz
+# Bitbucket
+python -m pip install https://bitbucket.org/hpk42/tox/get/2.3.1.tar.gz
+```
+
 
 
