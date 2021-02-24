@@ -16,7 +16,8 @@ toc_sticky: true
 
 # JSUT
 [https://sites.google.com/site/shinnosuketakamichi/publication/jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
-JSUT is a japanese speech dataset consisting of about 5h of a single female speaker. The transcipt was designed to cover common use word.
+
+JSUT is a japanese speech dataset consisting of about 5h of a single female speaker. The transcipt was designed to cover common use words.
 
 To to set up this dataset we will follow this guide:
 * [TensorFlow Datasets writing custom datasets](https://www.tensorflow.org/datasets/add_dataset)
