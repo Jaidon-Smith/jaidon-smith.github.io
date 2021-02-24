@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Large Tensorflow Datasets - My LibriSpeech Journey"
+title: "Large Tensorflow Datasets - My LibriSpeech Journey"
 categories:
   - Posts
 tags:
@@ -259,6 +259,8 @@ I found a [github issue](https://github.com/tensorflow/datasets/issues/2827) whe
 ![image7](/assets/images/2021-02-16-large-tensorflow-datasets-my-librispeech-journey/image7.jpg)
 
 After doing this pip no longer rejects all of the nightly packages.
+
+However the problem is still present and the DataFlow job crashes after about 15m.
 
 
 
