@@ -260,7 +260,7 @@ I found a [github issue](https://github.com/tensorflow/datasets/issues/2827) whe
 
 After doing this pip no longer rejects all of the nightly packages.
 
-However the problem is still present and the DataFlow job crashes after about 15m.
+However the problem where the DataFlow job crashes after about 15m is still present.
 
 
 
