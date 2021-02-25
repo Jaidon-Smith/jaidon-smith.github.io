@@ -299,4 +299,18 @@ echo "https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz" > /tmp/bea
 echo "pydub" >> /tmp/beam_requirements.txt
 ```
 
+I try again, it crashes with this error:
+```
+RuntimeError: FileNotFoundError: Error for gs://general-304503/tensorflow_datasets/downloads/extracted/TAR_GZ.openslr.org_resources_12_dev-otherEmYcSOjD_h3iwcqkw-E1GTv7GBFYTxH1ad0SZFqoQ2U.tar.gz/LibriSpeech/dev-othe
+r/6123/59186/6123-59186-0023.flac: [Errno 2] No such file or directory: 'ffprobe': 'ffprobe'
+```
+
+A quick search suggests that the solution may be to install `ffprobe`, so I update my requirements:
+```
+echo "https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz" > /tmp/beam_requirements.txt
+echo "pydub" >> /tmp/beam_requirements.txt
+echo "ffprobe" >> /tmp/beam_requirements.txt
+```
+
+
 
