@@ -20,30 +20,8 @@ My recent project requires working with a great many audio files and Tensorflow 
 # Issue 1: Download Speed Unworkably Slow
 On my machine with mediocre internet it was estimated to take 12 hours to download. I proceeded to set up a Google Cloud Platform Virtual Machine which along with other advantages for machine learning projects, could download the dataset in less than an hour.
 
-# Issue 2: The generation code had a bug
-I proceeded to run the code to download and generate the dataset.
-
-```python
-import tensorflow_datasets as tfds
-ds = tfds.load('librispeech', split='train_clean100', shuffle_files=True, data_dir='./')
-```
-
-However this terminated unsuccessfully. I actually forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in `tensorflow_datasets/audio/librispeech.py`.
-
-```python
-with tf.io.gfile.GFile(os.path.join(path, transcript_file)) as f:
-```
-
-changed to:
-
-```python
-with tf.io.gfile.GFile(transcript_file) as f:
-```
-
-I actually found an issue on github where someone had made the exact same change as me but their pull request had many other unrelated changes so no one had reviewed it.
-
-# Issue 3: Using GCP DataFlow
-When running the extration on my machine, about 10m in the apache runner announces it is out of memory. I think this pretty well confirms my suspicion that it won't really be possible to generate the dataset on a single machine. The dataset is designed to be generated using parallel computation ([https://www.tensorflow.org/datasets/beam_datasets](https://www.tensorflow.org/datasets/beam_datasets)), so I think the next step is to set up GCP DataFlow.
+# Issue 2: Using GCP DataFlow
+This dataset is designed to be generated using parallel computation ([https://www.tensorflow.org/datasets/beam_datasets](https://www.tensorflow.org/datasets/beam_datasets)), so I think the next step is to set up GCP DataFlow.
 
 ## Learning Resources for DataFlow
 
@@ -432,5 +410,29 @@ python -m tensorflow_datasets.scripts.download_and_prepare \
   --beam_pipeline_options="project=$GCP_PROJECT,job_name=test9,staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1,num_workers=5,setup_file=/tmp/setup.py"
 ```
 
+# Issue 3: The generation code had a bug
+There was a bug in librispeech.py that prevented generation. When running on dataflow it is difficult to see the reason but by executing this python code on a single machine it is easy to see where the problem is.
+
+```python
+import tensorflow_datasets as tfds
+ds = tfds.load('librispeech', split='train_clean100', shuffle_files=True, data_dir='./')
+```
+
+I forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in `tensorflow_datasets/audio/librispeech.py`.
+
+```python
+with tf.io.gfile.GFile(os.path.join(path, transcript_file)) as f:
+```
+
+changed to:
+
+```python
+with tf.io.gfile.GFile(transcript_file) as f:
+```
+
+I actually found an issue on github where someone had made the exact same change as me but their pull request had many other unrelated changes so no one had reviewed it.
+
+# Conclusion
+Finally it looks like the dataflow job  would succeed but I am yet to run it to completion becuase it takes a long time.
 
 
