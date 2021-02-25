@@ -287,7 +287,7 @@ python -m pip install https://bitbucket.org/hpk42/tox/get/2.3.1.tar.gz
 
 I looked into creating these tarballs but then I found that github automatically creates them. Here is the pip command to install from the tarball.
 ```
-python -m pip install https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz
+python -m pip install --upgrade https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz
 ```
 Here is the corresponding command to create the requirements.
 ```
