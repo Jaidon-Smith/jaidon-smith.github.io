@@ -184,3 +184,9 @@ class Ljspeech(tfds.core.GeneratorBasedBuilder):
         }
         yield key, example
 ```
+
+I found out that when you are developing these datasets on a colab runtime, it is necessary to be able to reload the importing of the changed dataset.
+```python
+import importlib
+importlib.reload(jsut_beta.jsut_beta)
+```
