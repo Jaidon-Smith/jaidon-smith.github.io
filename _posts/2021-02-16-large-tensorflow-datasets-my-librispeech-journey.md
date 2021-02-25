@@ -436,6 +436,6 @@ python -m tensorflow_datasets.scripts.download_and_prepare \
 ```
 
 # Conclusion
-Finally it looks like the dataflow job  would succeed but I am yet to run it to completion becuase it takes a long time.
+Finally it looks like the dataflow job  would succeed but I am yet to run it to completion becauase it takes a long time.
 
 
