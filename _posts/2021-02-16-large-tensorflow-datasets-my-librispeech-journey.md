@@ -41,7 +41,7 @@ Uses Google Cloud Storage and gsutil
 In order to understand what DataFlow is achieving, I researched the underpinning idea of MapReduce
 * [Brief video that demonstrates how map reduce can achieve parallelism](https://www.youtube.com/watch?v=43fqzaSH0CQ&ab_channel=internet-class)
 
-# Issue 3: Generating the LibriSpeech dataset using DataFlow
+# Generating the LibriSpeech dataset using DataFlow
 It is now time to use the above knowledge to generate the dataset. Like the dataflow tutorial example I execute all of these commands from the GCP console
 
 **Setting up the virtual machine**
@@ -240,7 +240,7 @@ After doing this pip no longer rejects all of the nightly packages.
 
 However the problem where the DataFlow job crashes after about 15m is still present.
 
-# Issue 4: Installing on DataFlow Workers
+# Issue 3: Installing on DataFlow Workers
 
 After making the change on my fork of tensorflow datasets. I put the clone command I usually use to install packages from git in the requirements:
 ```
@@ -410,7 +410,7 @@ python -m tensorflow_datasets.scripts.download_and_prepare \
   --beam_pipeline_options="project=$GCP_PROJECT,job_name=test9,staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1,num_workers=5,setup_file=/tmp/setup.py"
 ```
 
-# Issue 5: The generation code had a bug
+# Issue 4: The generation code had a bug
 
 There was a bug in librispeech.py that prevented generation. When running on dataflow it is difficult to see the reason but by executing this python code on a single machine it is easy to see where the problem is.
 
