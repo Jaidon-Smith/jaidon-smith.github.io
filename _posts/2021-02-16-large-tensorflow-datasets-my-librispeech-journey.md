@@ -240,7 +240,7 @@ After doing this pip no longer rejects all of the nightly packages.
 
 However the problem where the DataFlow job crashes after about 15m is still present.
 
-# Issue 4 (Installing on DataFlow Workers)
+# Issue 4: Installing on DataFlow Workers
 
 After making the change on my fork of tensorflow datasets. I put the clone command I usually use to install packages from git in the requirements:
 ```
