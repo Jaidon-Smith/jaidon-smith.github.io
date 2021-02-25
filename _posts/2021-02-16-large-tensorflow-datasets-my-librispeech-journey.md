@@ -285,5 +285,14 @@ python -m pip install https://gitlab.com/pycqa/flake8/-/archive/3.7.7/flake8-3.7
 python -m pip install https://bitbucket.org/hpk42/tox/get/2.3.1.tar.gz
 ```
 
+I looked into creating these tarballs but then I found that github automatically creates them. Here is the pip command to install from the tarball.
+```
+python -m pip install https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz
+```
+Here is the corresponding command to create the requirements.
+```
+echo "https://github.com/Jaidon-Smith/datasets/archive/master.tar.gz" > /tmp/beam_requirements.txt
+```
+
 
 
