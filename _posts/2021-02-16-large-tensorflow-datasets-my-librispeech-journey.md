@@ -312,5 +312,8 @@ echo "pydub" >> /tmp/beam_requirements.txt
 echo "ffprobe" >> /tmp/beam_requirements.txt
 ```
 
+No this did not fix it. I think the problem is that ffmpeg needs to be installed on the workers. I need to follow the instructions here to include a `setup.py`:
+* [https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/](https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/)
+
 
 
