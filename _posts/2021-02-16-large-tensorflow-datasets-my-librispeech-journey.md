@@ -423,5 +423,14 @@ setuptools.setup(
     )
 ```
 
+I also modify the command to start the dataflow job to include the setup.py.
+
+```
+python -m tensorflow_datasets.scripts.download_and_prepare \
+  --datasets=$DATASET_NAME \
+  --data_dir=$GCS_BUCKET/tensorflow_datasets \
+  --beam_pipeline_options="project=$GCP_PROJECT,job_name=test9,staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1,num_workers=5,setup_file=/tmp/setup.py"
+```
+
 
 
