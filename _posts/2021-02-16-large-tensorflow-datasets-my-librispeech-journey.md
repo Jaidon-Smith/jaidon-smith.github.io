@@ -315,5 +315,67 @@ echo "ffprobe" >> /tmp/beam_requirements.txt
 No this did not fix it. I think the problem is that ffmpeg needs to be installed on the workers. I need to follow the instructions here to include a `setup.py`:
 * [https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/](https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/)
 
+I create a `setup.py` file with commands to install ffmpeg:
+
+```python
+# two commands will have to be added:
+#
+#     ['apt-get', 'update'],
+#     ['apt-get', '--assume-yes', install', 'libjpeg62'],
+#
+# First, note that there is no need to use the sudo command because the setup
+# script runs with appropriate access.
+# Second, if apt-get tool is used then the first command needs to be 'apt-get
+# update' so the tool refreshes itself and initializes links to download
+# repositories.  Without this initial step the other apt-get install commands
+# will fail with package not found errors. Note also --assume-yes option which
+# shortcuts the interactive confirmation.
+#
+# The output of custom commands (including failures) will be logged in the
+# worker-startup log.
+
+CUSTOM_COMMANDS = [
+    ['apt-get', 'update'],
+    ['apt-get', '--assume-yes', 'install', 'ffmpeg'],
+]
+
+class CustomCommands(setuptools.Command):
+  """A setuptools Command class able to run arbitrary commands."""
+  def initialize_options(self):
+    pass
+  def finalize_options(self):
+    pass
+  def RunCustomCommand(self, command_list):
+    print('Running command: %s' % command_list)
+    p = subprocess.Popen(
+        command_list,
+        stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    # Can use communicate(input='y\n'.encode()) if the command run requires
+    # some confirmation.
+    stdout_data, _ = p.communicate()
+    print('Command output: %s' % stdout_data)
+    if p.returncode != 0:
+      raise RuntimeError(
+          'Command %s failed: exit code: %s' % (command_list, p.returncode))
+          
+  def run(self):
+    for command in CUSTOM_COMMANDS:
+      self.RunCustomCommand(command)
+      
+setuptools.setup(
+    name='dummyname',
+    version='0.0.1',
+    description='Monthly landsat workflow package.',
+    install_requires=[],
+    packages=setuptools.find_packages(),
+    py_modules=[],
+    cmdclass={
+        # Command class instantiated and run during pip install scenarios.
+        'build': build,
+        'CustomCommands': CustomCommands,
+        }
+    )
+```
+
 
 
