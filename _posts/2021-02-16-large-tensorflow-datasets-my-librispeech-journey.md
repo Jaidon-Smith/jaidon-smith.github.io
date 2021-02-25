@@ -240,7 +240,32 @@ After doing this pip no longer rejects all of the nightly packages.
 
 However the problem where the DataFlow job crashes after about 15m is still present.
 
-# Issue 3: Installing on DataFlow Workers
+# Issue 3: The generation code had a bug
+
+There was a bug in librispeech.py that prevented generation. When running on dataflow it is difficult to see the reason but by executing this python code on a single machine it is easy to see where the problem is.
+
+```python
+import tensorflow_datasets as tfds
+ds = tfds.load('librispeech', split='train_clean100', shuffle_files=True, data_dir='./')
+```
+
+I forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in `tensorflow_datasets/audio/librispeech.py`.
+
+```python
+with tf.io.gfile.GFile(os.path.join(path, transcript_file)) as f:
+```
+
+changed to:
+
+```python
+with tf.io.gfile.GFile(transcript_file) as f:
+```
+
+I actually found an issue on github where someone had made the exact same change as me but their pull request had many other unrelated changes so no one had reviewed it.
+
+# Issue 4: Installing on DataFlow Workers
+
+> Having made the fix on my github, I had some difficultly installing it on the dataflow workers. I also realised that I needed to install other non-python dependencies such as ffmpeg
 
 After making the change on my fork of tensorflow datasets. I put the clone command I usually use to install packages from git in the requirements:
 ```
@@ -409,29 +434,6 @@ python -m tensorflow_datasets.scripts.download_and_prepare \
   --data_dir=$GCS_BUCKET/tensorflow_datasets \
   --beam_pipeline_options="project=$GCP_PROJECT,job_name=test9,staging_location=$GCS_BUCKET/binaries,temp_location=$GCS_BUCKET/temp,runner=DataflowRunner,requirements_file=/tmp/beam_requirements.txt,region=us-central1,num_workers=5,setup_file=/tmp/setup.py"
 ```
-
-# Issue 4: The generation code had a bug
-
-There was a bug in librispeech.py that prevented generation. When running on dataflow it is difficult to see the reason but by executing this python code on a single machine it is easy to see where the problem is.
-
-```python
-import tensorflow_datasets as tfds
-ds = tfds.load('librispeech', split='train_clean100', shuffle_files=True, data_dir='./')
-```
-
-I forked the tensorflow datasets repository on github and found the location of exception, it was a one line fix in `tensorflow_datasets/audio/librispeech.py`.
-
-```python
-with tf.io.gfile.GFile(os.path.join(path, transcript_file)) as f:
-```
-
-changed to:
-
-```python
-with tf.io.gfile.GFile(transcript_file) as f:
-```
-
-I actually found an issue on github where someone had made the exact same change as me but their pull request had many other unrelated changes so no one had reviewed it.
 
 # Conclusion
 Finally it looks like the dataflow job  would succeed but I am yet to run it to completion becuase it takes a long time.
