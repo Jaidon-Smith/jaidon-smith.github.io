@@ -28,3 +28,10 @@ JSUT is a japanese speech dataset consisting of about 5h of a single female spea
 TensorFlow datasets only has version 1 of this dataset which does not have Japanese.
 
 Version 6 has 5h total Japanese speech with 3h validated.
+
+# Tatoeba Japanese
+Japanese sentences that contain audio on [Tatobeta](https://tatoeba.org/eng/downloads).
+
+Consists of about 1h of Japanese speech made up from 1525 sentences.
+
+Zip file can be downloaded [here](https://drive.google.com/file/d/1WTZKU5uv8D8eoUJcwrIa5m-2ya_fmcjt/view?usp=sharing).
