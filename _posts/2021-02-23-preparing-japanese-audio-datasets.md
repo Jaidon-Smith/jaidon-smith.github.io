@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Preparing Japanese Audio Datasets for TensorFlow"
+title: "Preparing Japanese Audio Datasets for TensorFlow"
 categories:
   - Posts
 tags:
