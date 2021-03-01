@@ -35,3 +35,13 @@ Japanese sentences that contain audio on [Tatobeta](https://tatoeba.org/eng/down
 Consists of about 1h of Japanese speech made up from 1525 sentences.
 
 Zip file can be downloaded [here](https://drive.google.com/file/d/1WTZKU5uv8D8eoUJcwrIa5m-2ya_fmcjt/view?usp=sharing).
+
+# JVS Corpus
+
+[More information available at dataset's webpage](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus)
+
+Japanese speech dataset.
+
+About 30h hours with 100 speakers.
+
+Contains some of the same sentences as jsut.
