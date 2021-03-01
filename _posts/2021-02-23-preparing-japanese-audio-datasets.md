@@ -22,7 +22,7 @@ To to set up these datasets we will follow this guide:
 # JSUT
 [https://sites.google.com/site/shinnosuketakamichi/publication/jsut](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
 
-JSUT is a japanese speech dataset consisting of about 5h of a single female speaker. The transcipt was designed to cover common use words.
+JSUT is a japanese speech dataset consisting of about 10h of a single female speaker. The transcipt was designed to cover common use words.
 
 # Common Voice Version 6
 TensorFlow datasets only has version 1 of this dataset which does not have Japanese.
