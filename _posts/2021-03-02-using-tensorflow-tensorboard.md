@@ -14,3 +14,6 @@ toc_sticky: true
 > Note: The purpose of this post is as a personal reflection and not as a tutorial.
 
 When doing machine learning research, it is important to be able to have real time visualisation. TensorBoard allows such visualisation. This post will document my experiments utilising TensorBoard.
+
+# TensorBoard Getting Started Guide
+[https://www.tensorflow.org/tensorboard/get_started](https://www.tensorflow.org/tensorboard/get_started)
