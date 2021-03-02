@@ -12,7 +12,7 @@ excerpt: "Preparing JSUT and Mozilla Common Voice for TensorFlow"
 toc: true
 toc_sticky: true
 ---
-> Note: The purpose of this post is as a personal reflection and not as a tutorial
+> Note: The purpose of this post is as a personal reflection and not as a tutorial.
 
 [These datasets to be used with TensorFlow are available here.](https://github.com/Jaidon-Smith/public_datasets)
 
