@@ -14,7 +14,7 @@ toc_sticky: true
 ---
 > Note: The purpose of this post is as a personal reflection and not as a tutorial
 
-[These datasets to be used with TensorFlow are available here.](https://github.com/Jaidon-Smith/public-datasets)
+[These datasets to be used with TensorFlow are available here.](https://github.com/Jaidon-Smith/public_datasets)
 
 To to set up these datasets we will follow this guide:
 * [TensorFlow Datasets writing custom datasets](https://www.tensorflow.org/datasets/add_dataset)
