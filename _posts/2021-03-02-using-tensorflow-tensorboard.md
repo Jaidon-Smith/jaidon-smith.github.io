@@ -49,5 +49,5 @@ for i in range(4):
 ```
 
 How the audio appears in TensorBoard:
-![](/assets/images/2021-03-02-using-tensorflow-tensorboard/image1.jpg)
+![image1](/assets/images/2021-03-02-using-tensorflow-tensorboard/image1.jpg)
 
