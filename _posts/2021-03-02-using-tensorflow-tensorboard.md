@@ -48,6 +48,7 @@ for i in range(4):
     tf.summary.audio("Audio " + str(i+1), audio, 48000, step=0, description=description)
 ```
 How the audio appears in TensorBoard:
+
 ![image1](/assets/images/2021-03-02-using-tensorflow-tensorboard/image1.jpg)
 * The description with the transcript can be viewed by clicking the information symbols.
 
