@@ -29,7 +29,6 @@ These TensorFlow API references are also relevant:
 # Logging Audio
 * `speech_4` was a list of 1D numpy arrays representinng mono audio.
 * `transcripts` was a list of strings representing the spoken characters in the corresponding audio.
-* 
 ```python
 # Clear out any prior log data.
 !rm -rf logs
@@ -47,7 +46,7 @@ for i in range(4):
   with file_writer.as_default():
     tf.summary.audio("Audio " + str(i+1), audio, 48000, step=0, description=description)
 ```
-
 How the audio appears in TensorBoard:
 ![image1](/assets/images/2021-03-02-using-tensorflow-tensorboard/image1.jpg)
+* The Description can be viewed by clicking the information symbol next to the audio.
 
