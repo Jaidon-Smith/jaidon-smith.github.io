@@ -27,6 +27,7 @@ These TensorFlow API references are also relevant:
 * [Understannding callbacks in keras: tf.keras.callbacks](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks)
 
 # Logging Audio
+[TensorFlow API reference for logging audio.](https://www.tensorflow.org/api_docs/python/tf/summary/audio)
 * `speech_4` was a list of 1D numpy arrays representinng mono audio.
 * `transcripts` was a list of strings representing the spoken characters in the corresponding audio.
 ```python
