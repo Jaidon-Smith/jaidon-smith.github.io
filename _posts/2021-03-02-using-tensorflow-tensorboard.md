@@ -21,3 +21,7 @@ I Looked at these guides:
 * [TensorBoard Scalars: Logging training metrics in Keras](https://www.tensorflow.org/tensorboard/scalars_and_keras)
 * [Displaying image data in TensorBoard](https://www.tensorflow.org/tensorboard/image_summaries)
 * [Examining the TensorBoard Graph](https://www.tensorflow.org/tensorboard/graphs)
+
+This API was relevant
+* [Writing to logs: tf.summary](https://www.tensorflow.org/api_docs/python/tf/summary?version=nightly)
+* [Understannding callbacks in keras: tf.keras.callbacks](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks)
