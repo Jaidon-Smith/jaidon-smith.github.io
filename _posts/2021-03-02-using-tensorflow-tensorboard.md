@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Using TensorFlow TensorBoard"
+title: "Using TensorFlow TensorBoard"
 categories:
   - Posts
 tags:
