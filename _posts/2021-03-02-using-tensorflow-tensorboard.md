@@ -48,5 +48,5 @@ for i in range(4):
 ```
 How the audio appears in TensorBoard:
 ![image1](/assets/images/2021-03-02-using-tensorflow-tensorboard/image1.jpg)
-* The Description can be viewed by clicking the information symbol next to the audio.
+* The Description can be viewed by clicking the information.
 
