@@ -15,5 +15,9 @@ toc_sticky: true
 
 When doing machine learning research, it is important to be able to have real time visualisation. TensorBoard allows such visualisation. This post will document my experiments utilising TensorBoard.
 
-# TensorBoard Getting Started Guide
-[https://www.tensorflow.org/tensorboard/get_started](https://www.tensorflow.org/tensorboard/get_started)
+# TensorBoard Guides
+I Looked at these guides:
+* [TensorBoard Getting Started Guide](https://www.tensorflow.org/tensorboard/get_started)
+* [TensorBoard Scalars: Logging training metrics in Keras](https://www.tensorflow.org/tensorboard/scalars_and_keras)
+* [Displaying image data in TensorBoard](https://www.tensorflow.org/tensorboard/image_summaries)
+* [Examining the TensorBoard Graph](https://www.tensorflow.org/tensorboard/graphs)
