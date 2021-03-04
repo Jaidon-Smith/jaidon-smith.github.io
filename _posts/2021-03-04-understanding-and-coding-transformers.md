@@ -77,18 +77,19 @@ def transformer_librispeech_v1():
 def transformer_librispeech_v2():
   """HParams for training ASR model on LibriSpeech V2."""
   hparams = transformer_base()
+  
+  hparams.num_heads = 2
+  hparams.filter_size = 1536
+  hparams.hidden_size = 384
+  hparams.num_encoder_layers = 6
+  hparams.num_decoder_layers = 4
+  hparams.learning_rate = 0.15
+  hparams.batch_size = 16
 
   hparams.max_length = 1240000
   hparams.max_input_seq_length = 1550
   hparams.max_target_seq_length = 350
-  hparams.batch_size = 16
-  hparams.num_decoder_layers = 4
-  hparams.num_encoder_layers = 6
-  hparams.hidden_size = 384
-  hparams.learning_rate = 0.15
   hparams.daisy_chain_variables = False
-  hparams.filter_size = 1536
-  hparams.num_heads = 2
   hparams.ffn_layer = "conv_relu_conv"
   hparams.conv_first_kernel = 9
   hparams.weight_decay = 0
