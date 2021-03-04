@@ -13,6 +13,8 @@ toc_sticky: true
 ---
 > Note: The purpose of this post is as a personal reflection and not as a tutorial.
 
+As part of building an automatic speech recognition tensorflow model I am researching and building transformers.
+
 # Some Useful Links
 
 ## The Paper "Attention Is All You Need"
