@@ -112,3 +112,9 @@ Trax Documentation
 Trax Transformer
 
 [https://github.com/google/trax/blob/master/trax/models/transformer.py](https://github.com/google/trax/blob/master/trax/models/transformer.py)
+
+## TensorFlow Addons
+
+Multi-head attention
+
+[https://www.tensorflow.org/addons/api_docs/python/tfa/layers/MultiHeadAttention](https://www.tensorflow.org/addons/api_docs/python/tfa/layers/MultiHeadAttention)
