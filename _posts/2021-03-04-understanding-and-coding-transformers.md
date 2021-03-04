@@ -47,4 +47,8 @@ This was the only tutorial under the docs in github
 
 [https://github.com/google/trax](https://github.com/google/trax)
 
-"Trax is an end-to-end library for deep learning that focuses on clear code and speed. It is actively used and maintained in the Google Brain team. "
+"Trax is an end-to-end library for deep learning that focuses on clear code and speed. It is actively used and maintained in the Google Brain team".
+
+Trax Documentation
+
+[https://trax-ml.readthedocs.io/en/latest/](https://trax-ml.readthedocs.io/en/latest/)
