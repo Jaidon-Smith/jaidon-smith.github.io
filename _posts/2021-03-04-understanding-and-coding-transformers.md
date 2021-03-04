@@ -40,3 +40,5 @@ It has since been replaced by Trax.
 ## Trax
 
 [https://github.com/google/trax](https://github.com/google/trax)
+
+"Trax is an end-to-end library for deep learning that focuses on clear code and speed. It is actively used and maintained in the Google Brain team. "
