@@ -15,12 +15,28 @@ toc_sticky: true
 
 # Some Useful Links
 
-* The Paper "Attention Is All You Need"
+## The Paper "Attention Is All You Need"
 
 [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
 
 [https://arxiv.org/pdf/1706.03762.pdf](https://arxiv.org/pdf/1706.03762.pdf)
 
-* TensorFlow Tutorial "Transformer model for language understanding"
+## TensorFlow Tutorial
+
+* Transformer model for language understanding
 
 [https://www.tensorflow.org/tutorials/text/transformer](https://www.tensorflow.org/tutorials/text/transformer)
+
+## Tensor2Tensor
+
+[https://github.com/tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)
+
+This was mentioned in the transformer paper as the original codebase.
+
+"Tensor2Tensor, or T2T for short, is a library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research."
+
+It has since been replaced by Trax.
+
+## Trax
+
+[https://github.com/google/trax](https://github.com/google/trax)
