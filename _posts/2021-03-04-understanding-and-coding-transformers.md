@@ -43,6 +43,10 @@ This was the only tutorial under the docs in github
 
 [https://cloud.google.com/tpu/docs/tutorials/automated-speech-recognition](https://cloud.google.com/tpu/docs/tutorials/automated-speech-recognition)
 
+Tensor2Tensor Transformer
+
+[https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py)
+
 ## Trax
 
 [https://github.com/google/trax](https://github.com/google/trax)
