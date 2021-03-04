@@ -52,3 +52,7 @@ This was the only tutorial under the docs in github
 Trax Documentation
 
 [https://trax-ml.readthedocs.io/en/latest/](https://trax-ml.readthedocs.io/en/latest/)
+
+Trax Transformer
+
+[https://github.com/google/trax/blob/master/trax/models/transformer.py](https://github.com/google/trax/blob/master/trax/models/transformer.py)
