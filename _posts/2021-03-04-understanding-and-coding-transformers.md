@@ -23,11 +23,15 @@ As part of building an automatic speech recognition tensorflow model I am resear
 
 [https://arxiv.org/pdf/1706.03762.pdf](https://arxiv.org/pdf/1706.03762.pdf)
 
-## TensorFlow Tutorial
+## TensorFlow
 
-* Transformer model for language understanding
+* Tutorial: Transformer model for language understanding
 
 [https://www.tensorflow.org/tutorials/text/transformer](https://www.tensorflow.org/tutorials/text/transformer)
+
+* Multi-head attention API
+
+[https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention?version=nightly](https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention?version=nightly)
 
 ## Tensor2Tensor
 
