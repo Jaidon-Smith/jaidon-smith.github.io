@@ -53,7 +53,7 @@ Speech recognition transformer notebook
 
 [https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/asr_transformer.ipynb](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/asr_transformer.ipynb)
 
-Inside `transformer.py` there are parameters for a automatic speech recognition transformer.
+Inside `transformer.py` there are parameters for an automatic speech recognition transformer.
 
 ```python
 @registry.register_hparams
