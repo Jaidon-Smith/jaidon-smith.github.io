@@ -33,6 +33,10 @@ As part of building an automatic speech recognition tensorflow model I am resear
 
 [https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention?version=nightly](https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention?version=nightly)
 
+* Position encoding
+
+[https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb](https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb)
+
 ## Tensor2Tensor
 
 [https://github.com/tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)
