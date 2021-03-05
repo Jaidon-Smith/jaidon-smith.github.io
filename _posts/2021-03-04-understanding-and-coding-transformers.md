@@ -146,17 +146,12 @@ Blog post linked by the other Buomsoo Kim post
 Google AI Blog (Building Your Own Neural Machine Translation System in TensorFlow)
 
 * [https://ai.googleblog.com/2017/07/building-your-own-neural-machine.html](https://ai.googleblog.com/2017/07/building-your-own-neural-machine.html)
-
-The actual tutorial link and has some good theory on seq2seq
-
 * [https://github.com/tensorflow/nmt](https://github.com/tensorflow/nmt)
 
 There is also a seq2seq google repository
 
 * [https://google.github.io/seq2seq/](https://google.github.io/seq2seq/)
-
 * [https://github.com/google/seq2seq](https://github.com/google/seq2seq)
-
 * [https://github.com/google/seq2seq/blob/master/docs/nmt.md](https://github.com/google/seq2seq/blob/master/docs/nmt.md)
 
 TensorFlow Addon Seq2Seq Tutorial
