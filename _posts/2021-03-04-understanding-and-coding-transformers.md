@@ -126,3 +126,35 @@ Trax Transformer
 Multi-head attention
 
 [https://www.tensorflow.org/addons/api_docs/python/tfa/layers/MultiHeadAttention](https://www.tensorflow.org/addons/api_docs/python/tfa/layers/MultiHeadAttention)
+
+# Background: Attention
+
+Tutorial on TensorFlow Site
+
+[https://www.tensorflow.org/tutorials/text/nmt_with_attention](https://www.tensorflow.org/tutorials/text/nmt_with_attention)
+
+A Blog post found by google searching "attention networks"
+
+[https://buomsoo-kim.github.io/attention/2020/01/01/Attention-mechanism-1.md/](https://buomsoo-kim.github.io/attention/2020/01/01/Attention-mechanism-1.md/)
+
+## Seq2Seq: Motivated attention
+
+Blog post linked by the other Buomsoo Kim post
+
+[https://buomsoo-kim.github.io/attention/2020/01/09/Attention-mechanism-2.md/](https://buomsoo-kim.github.io/attention/2020/01/09/Attention-mechanism-2.md/)
+
+Google AI Blog (Building Your Own Neural Machine Translation System in TensorFlow)
+
+[https://ai.googleblog.com/2017/07/building-your-own-neural-machine.html](https://ai.googleblog.com/2017/07/building-your-own-neural-machine.html)
+
+The actual tutorial link and has some good theory on seq2seq
+
+[https://github.com/tensorflow/nmt](https://github.com/tensorflow/nmt)
+
+There is also a seq2seq google repository
+
+[https://google.github.io/seq2seq/](https://google.github.io/seq2seq/)
+
+[https://github.com/google/seq2seq](https://github.com/google/seq2seq)
+
+[https://github.com/google/seq2seq/blob/master/docs/nmt.md](https://github.com/google/seq2seq/blob/master/docs/nmt.md)
