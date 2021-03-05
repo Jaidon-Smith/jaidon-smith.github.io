@@ -160,4 +160,6 @@ TensorFlow Addon Seq2Seq Tutorial
 
 Papers
 
+> [https://github.com/tensorflow/nmt#background-on-the-attention-mechanism:](https://github.com/tensorflow/nmt#background-on-the-attention-mechanism) "...attention mechanism, which was first introduced by Bahdanau et al., 2015, then later refined by Luong et al., 2015 and others".
+
 * [(Luong et al., 2015) Effective Approaches to Attention-based Neural Machine Translation: https://arxiv.org/pdf/1508.04025.pdf](https://arxiv.org/pdf/1508.04025.pdf)
