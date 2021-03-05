@@ -157,3 +157,7 @@ There is also a seq2seq google repository
 TensorFlow Addon Seq2Seq Tutorial
 
 * [https://www.tensorflow.org/addons/tutorials/networks_seq2seq_nmt](https://www.tensorflow.org/addons/tutorials/networks_seq2seq_nmt)
+
+Papers
+
+* [(Luong et al., 2015) Effective Approaches to Attention-based Neural Machine Translation: https://arxiv.org/pdf/1508.04025.pdf](https://arxiv.org/pdf/1508.04025.pdf)
