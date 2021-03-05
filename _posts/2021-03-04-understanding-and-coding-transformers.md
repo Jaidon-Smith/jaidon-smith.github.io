@@ -162,6 +162,6 @@ Papers
 
 > [https://github.com/tensorflow/nmt#background-on-the-attention-mechanism:](https://github.com/tensorflow/nmt#background-on-the-attention-mechanism) "...attention mechanism, which was first introduced by Bahdanau et al., 2015, then later refined by Luong et al., 2015 and others".
 
-* [(Luong et al., 2015) Effective Approaches to Attention-based Neural Machine Translation: https://arxiv.org/pdf/1508.04025.pdf](https://arxiv.org/pdf/1508.04025.pdf)
-
 * [(Bahdanau et al., 2015) Neural Machine Translation by Jointly Learning to Align and Translate: https://arxiv.org/pdf/1409.0473.pdf](https://arxiv.org/pdf/1409.0473.pdf)
+
+* [(Luong et al., 2015) Effective Approaches to Attention-based Neural Machine Translation: https://arxiv.org/pdf/1508.04025.pdf](https://arxiv.org/pdf/1508.04025.pdf)
