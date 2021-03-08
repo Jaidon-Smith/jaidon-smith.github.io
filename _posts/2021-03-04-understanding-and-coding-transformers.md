@@ -186,4 +186,23 @@ Papers
 
 ## Scaled dot product attention
 
-$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{d})V$
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{d})V$$
+
+It will be helpful to understand this formula in terms of the original attention formulas.
+
+
+
+We first consider what $$QK^{T}$$ means.
+
+(The first dimension is the number of rows). For simplicity we ignore the batch dimension.
+
+Q has shape (Sequence Length, d_dim)
+
+This means that K must have shape (Sequence Length, ?)
+
+and that $$QK^{T}$$ has shape (Sequence Length, Sequence Length)
+
+The matrix notation allows us to consider q for every sequence postion in one equation but for simplicity let us just query one of the positions.
+we will call this q and it has dimenstions (1, d_dim)
+
+
