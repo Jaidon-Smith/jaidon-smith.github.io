@@ -214,5 +214,5 @@ It can be shown that $$QK^{T}$$ part is equivalent to Luong's score also called 
 
 ![image2](/assets/images/2021-03-04-understanding-and-coding-transformers/image2.jpg)
 
-By writing the product like this $$QW_{i}^Q(W_{i}^K)^{T}K^T$$, we can see how it could be comparable to Luong's score.
+By writing the product like this: $$QW_{i}^Q(W_{i}^K)^{T}K^T$$, we can see how it could be comparable to Luong's score.
 
