@@ -216,5 +216,5 @@ It can be shown that $$QK^{T}$$ part is equivalent to Luong's score also called 
 
 > The above image is from the paper but I will write the Q, K and V's here as $$Q^{*}$$, $$K^{*}$$ and $$V^{*}$$ in order to properly distinguish from the earlier notation.
 
-By writing the product like this: $$Q^{*}W_{i}^Q(W_{i}^K)^{T}K^{*}^{T}$$, we can see how it could be comparable to Luong's score.
+By writing the product like this: $$Q^{*}W_{i}^Q(W_{i}^K)^{T}(K^{*})^{T}$$, we can see how it could be comparable to Luong's score.
 
