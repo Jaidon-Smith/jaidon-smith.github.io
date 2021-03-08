@@ -169,3 +169,17 @@ Papers
 ## TensorFlow Tutorial
 
 * [https://www.tensorflow.org/tutorials/text/nmt_with_attention](https://www.tensorflow.org/tutorials/text/nmt_with_attention)
+
+# Following the tensorflow transformer tutorial
+
+* [https://www.tensorflow.org/tutorials/text/transformer](https://www.tensorflow.org/tutorials/text/transformer)
+
+## Positional Encoding
+
+* [https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb](https://github.com/tensorflow/examples/blob/master/community/en/position_encoding.ipynb)
+
+## Normalisation
+
+* [https://www.tensorflow.org/addons/tutorials/layers_normalizations](https://www.tensorflow.org/addons/tutorials/layers_normalizations)
+
+* https://www.tensorflow.org/api_docs/python/tf/keras/layers/LayerNormalization?version=nightly
