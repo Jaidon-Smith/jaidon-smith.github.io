@@ -208,5 +208,7 @@ For simplicity let us just do a query on one of the positions. We will call this
 
 In the original attention papers there were two main kinds of scores presented.
 
+![image1](/assets/images/2021-03-04-understanding-and-coding-transformers/image1.jpg)
+
 
 
