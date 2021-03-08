@@ -210,5 +210,9 @@ In the original attention papers there were two main kinds of scores presented.
 
 ![image1](/assets/images/2021-03-04-understanding-and-coding-transformers/image1.jpg)
 
+It can be shown that $$QK^{T}$$ part is equivalent to Luong's score also called the dot-product attention.
 
+![image2](/assets/images/2021-03-04-understanding-and-coding-transformers/image2.jpg)
+
+$$Q=WQ^{*}$$
 
