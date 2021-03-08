@@ -190,19 +190,23 @@ $$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{d})V$$
 
 It will be helpful to understand this formula in terms of the original attention formulas.
 
-
-
 We first consider what $$QK^{T}$$ means.
 
 (The first dimension is the number of rows). For simplicity we ignore the batch dimension.
 
-Q has shape (Sequence Length, d_dim)
+Q has shape (Sequence Length, d_dim) but must at least have shape (?, d_dim).
 
-This means that K must have shape (Sequence Length, ?)
+The first dimension is how many queries we want to make, this can go as high as Sequence Length which will give us the query for every position. However Q could also be dimension (1, d_dim) if we just wanted to compute 1 query like in the original attention paper. We will call the first dimension Q_dim.
 
-and that $$QK^{T}$$ has shape (Sequence Length, Sequence Length)
+This means that K must at least have shape (?, d_dim), where the first dimenstion is how many positions that we are are getting attention for. It is very natural to consider all of the positions giving K the shape (Sequence Length, d_dim).
 
-The matrix notation allows us to consider q for every sequence postion in one equation but for simplicity let us just query one of the positions.
-we will call this q and it has dimenstions (1, d_dim)
+and that $$QK^{T}$$ has shape (Q_dim, Sequence Length)
+
+For simplicity let us just do a query on one of the positions. We will call this q and it has dimensions (1, d_dim).
+
+**Comparing to the score in the original equation**
+
+In the original attention papers there were two main kinds of scores presented.
+
 
 
