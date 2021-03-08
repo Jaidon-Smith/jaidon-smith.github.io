@@ -183,3 +183,7 @@ Papers
 * [https://www.tensorflow.org/addons/tutorials/layers_normalizations](https://www.tensorflow.org/addons/tutorials/layers_normalizations)
 
 * https://www.tensorflow.org/api_docs/python/tf/keras/layers/LayerNormalization?version=nightly
+
+## Scaled dot product attention
+
+$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{d})V$
