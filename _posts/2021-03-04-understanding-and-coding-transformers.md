@@ -220,6 +220,8 @@ By writing the product like this: $$Q^{*}W_{i}^Q(W_{i}^K)^{T}(K^{*})^{T}$$, we c
 
 ## Masking
 
+The first thing to note is that in the tensorflow implementation, 0 means 'can learn from' or 'consider' and 1 means 'prevented from learning from' or 'ignore'.
+
 ```python
 def create_padding_mask(seq):
   seq = tf.cast(tf.math.equal(seq, 0), tf.float32)
@@ -285,6 +287,22 @@ From the band_part documentation:
 > tf.matrix_band_part(input, -1, 0) ==> Lower triangular part.
 > 
 > tf.matrix_band_part(input, 0, 0) ==> Diagonal.
+
+This means that 
+```python
+tf.linalg.band_part(tf.ones((size, size)), -1, 0)
+```
+is a (Sequence Length - 1, Sequence Length - 1) lower triangular matrix of ones and that:
+```python
+1 - tf.linalg.band_part(tf.ones((size, size)), -1, 0)
+```
+Would be an upper triangular matrix of ones except that the diagonals are also all 0.
+
+If we consider the ith row represents what outputs the ith position is allowed to learn from (rember the shifted outputs so the ith position is predicting i+1):
+
+* Position 0 can only use output 0 to predict position 1
+* Position 1 can only use outputs 0,1 to predict position 2
+* Position i can use outputs 0 to i to predict i+1 
 
 
 
