@@ -265,4 +265,24 @@ def train_step(inp, tar):
 ...
 ```
 
+It is also `tar_inp` that is given to the decoder.
+
+But it is `tar_real` that the loss is calculated on and thus what the output of the decoder is trying to predict.
+
+**Understanding the lookahead mask**
+```python
+mask = 1 - tf.linalg.band_part(tf.ones((size, size)), -1, 0)
+```
+
+From the band_part documentation:
+
+* [https://www.tensorflow.org/api_docs/python/tf/linalg/band_part](https://www.tensorflow.org/api_docs/python/tf/linalg/band_part)
+
+> **Useful special cases:**
+> tf.matrix_band_part(input, 0, -1) ==> Upper triangular part.
+> tf.matrix_band_part(input, -1, 0) ==> Lower triangular part.
+> tf.matrix_band_part(input, 0, 0) ==> Diagonal.
+
+
+
 
