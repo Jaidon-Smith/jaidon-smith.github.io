@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Understanding and Coding Transformers"
+title: "Understanding and Coding Transformers"
 categories:
   - Posts
 tags:
