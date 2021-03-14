@@ -19,6 +19,6 @@ When doing machine learning with Google Colab I have been mounting my Google Dri
 
 I still want to integrate Google Drive into my workflow however because from what I have been able to see, Google Drive is more affordable for long term dataset storage as the price per month is comparable to nearline at $6.25 per TB and no data retrieval costs.
 
-![image1](assets/images/2021-03-15-dataset-cloud-storage-solutions/image1.jpg)
+![image1](/assets/images/2021-03-15-dataset-cloud-storage-solutions/image1.jpg)
 
-![image2](assets/images/2021-03-15-dataset-cloud-storage-solutions/image2.jpg)
+![image2](/assets/images/2021-03-15-dataset-cloud-storage-solutions/image2.jpg)
