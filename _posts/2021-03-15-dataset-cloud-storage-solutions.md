@@ -47,7 +47,7 @@ There have been other posts by people regarding this very problem and a common s
 # Jupyter Notebooks on VM Instances
 I wasn't able to set an AI Notebook to be premptible which is important to reduce cost. So instead I went down the route of running a jupyter notebook on an instance.
 
-This tutorial was helpful
+This tutorial was helpful:
 
 * [https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52)
 
