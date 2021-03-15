@@ -38,7 +38,7 @@ The process would go something like this:
 * Allocate a VM with enough disk space for the dataset.
 * Download the dataset from Google Drive
 * Upload the dataset to Google Cloud Storage
-* Delete the VM with the disk
+* Delete the VM along with the disk
 
 While downloading and uploading could be done by visiting the sites, it would be better to automate this process by utilising the APIs.
 
