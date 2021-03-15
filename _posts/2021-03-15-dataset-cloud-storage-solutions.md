@@ -38,6 +38,7 @@ The process would go something like this:
 * Allocate a VM with enough disk space for the dataset.
 * Download the dataset from Google Drive
 * Upload the dataset to Google Cloud Storage
+
 While downloading and uploading could be done by visiting the sites, it would be better to automate this process by utilising the APIs.
 
 There have been other posts by people regarding this very problem and a common stated solution is to use Colab to mount the Google Drive and then upload from there to cloud storage. However this method does still use the disk space of a Colab which is only 100GB so it could possibly break down for transferring a large dataset.
