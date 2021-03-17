@@ -24,7 +24,7 @@ Paper: Wav2Letter: an End-to-End ConvNet-based Speech Recognition System
 Paper: Letter-Based Speech Recognition with Gated ConvNets
 * [https://arxiv.org/abs/1712.09444](https://arxiv.org/abs/1712.09444)
 
-Github PyTorch Implementation
+GitHub PyTorch Implementation
 * [https://github.com/facebookresearch/wav2letter/tree/master/recipes/conv_glu](https://github.com/facebookresearch/wav2letter/tree/master/recipes/conv_glu)
 * Gated ConvNet Network Architecture: [https://github.com/facebookresearch/wav2letter/blob/master/recipes/conv_glu/librispeech/network.arch](https://github.com/facebookresearch/wav2letter/blob/master/recipes/conv_glu/librispeech/network.arch)
 
