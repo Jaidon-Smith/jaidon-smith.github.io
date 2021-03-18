@@ -150,6 +150,47 @@ DO 0.25
 WN 0 L 500 NLABEL
 ```
 
-It is difficult to work out exactly what this is communicating but I believe that (WN 3 C) represent convolutions, (GLU 2) represents gated linear units and (DO) represents dropout.
+It is difficult to work out exactly what this is communicating but I believe that (WN 3 C) represent convolutions, (WN 0 L) represents linear layers, (GLU 2) represents gated linear units and (DO) represents dropout.
+
+The corresponding paper: Letter-Based Speech Recognition with Gated ConvNets
+* [https://arxiv.org/abs/1712.09444](https://arxiv.org/abs/1712.09444)
+also gives hints as to what the parameters are corresponding to.
+
+```python
+class GatedConvolutionalEncoder(tf.keras.Model):
+  def __init__(self):
+    super(GatedConvolutionalEncoder, self).__init__()
+
+    self.num_convolutions = 14
+  
+    self.convolutions = [GatedConvolution(filters=100, kernel_size=3, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=100, kernel_size=4, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=100, kernel_size=5, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=125, kernel_size=6, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=125, kernel_size=7, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=150, kernel_size=8, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=175, kernel_size=9, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=200, kernel_size=10, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=225, kernel_size=11, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=250, kernel_size=12, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=250, kernel_size=13, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=250, kernel_size=14, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=300, kernel_size=15, padding='causal', dropout_rate=0.25),
+                        GatedConvolution(filters=300, kernel_size=21, padding='causal', dropout_rate=0.25)]
+
+    self.fc1 = tf.keras.layers.Dense(1000)
+    self.final_layer = tf.keras.layers.Dense(input_vocab_size)
+
+  def call(self, inp, training=True):
+    output = inp
+    for i in range(self.num_convolutions):
+      output = self.convolutions[i](output, training=training)
+    #output = self.convolutions[0]
+    #output = self.convolutions[1]
+
+    output = self.fc1(output)
+    output = self.final_layer(output)
+    return output
+```
 
 
