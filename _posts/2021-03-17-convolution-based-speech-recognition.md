@@ -110,3 +110,7 @@ WN 0 L 500 NLABEL
 It is difficult to work out exactly what this is communicating but I believe that (WN 3 C) represent convolutions, (GLU 2) represents gated linear units and (DO) represents dropout.
 
 $$\bigotimes$$
+
+$$\{bigotimes}$$
+
+$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
