@@ -43,7 +43,7 @@ There are other kinds of notes in the game but to start I will only consider col
 * _lineIndex and _lineLayer represent positioning. Notes can occupy a grid of 3 rows and 4 columns. _lineIndex is the column, _lineLayer is the row. The bottom left corner represents (0,0)
 * _type: 0 if the note is red, 1 if the note is blue.
 
-** _cutDirection **
+**_cutDirection**
 * Down: 1
 * Left: 2
 * Up: 0
