@@ -118,8 +118,10 @@ Direction
 
 > The swing direction depends more on the structure of the notes rather than the music.
 
-If I include location, that means that there are 18 
+If I include location, there would be 18 possible events not considering time events.
 
-Going forward I will consider Note Location independent of the music and see what kind of results I get.
+If I do not consider location then there would be 2 possible events not considering time events. I suppose that multiple notes occuring at the same time has two possible representations. You could have multiple events or include the number of notes in the event. I would probably go with multiple events.
+
+Going forward I will consider Note Location independent of the music and see what kind of results I get, but I may revisit this.
 
 
