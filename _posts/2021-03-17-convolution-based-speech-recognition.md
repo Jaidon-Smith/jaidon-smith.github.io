@@ -196,4 +196,8 @@ class GatedConvolutionalEncoder(tf.keras.Model):
     return output
 ```
 
+# Training
+
+![image1](/assets/images/2021-03-17-convolution-based-speech-recognition/image1.jpg)
+
 
