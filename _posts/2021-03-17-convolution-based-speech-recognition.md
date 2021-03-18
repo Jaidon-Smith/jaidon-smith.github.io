@@ -197,7 +197,24 @@ class GatedConvolutionalEncoder(tf.keras.Model):
 ```
 
 # Training
+I trained on the JVS Japanese dataset. I identified some very strange and unstable training curves.
+
+
 
 ![image1](/assets/images/2021-03-17-convolution-based-speech-recognition/image1.jpg)
+
+I thought that perhaps I had implemented the gating incorrecly so I experimented with removing this and just having convolutions but these large value explosions still occured.
+
+I then tried changing datasets to the JSUT which is shorter and has a single speaker.
+
+![image2](/assets/images/2021-03-17-convolution-based-speech-recognition/image2.jpg)
+
+The training curve still exhibited strange behaviour where it would decrease and then increase. This is a normal pattern to see on a validation curve when there is overfitting but it seemed very strange that this would happen on a training curve.
+
+I searched what might cause this and I found that people had similar strange increases in the training curve when they used Adam optimiser with a learning rate that was too high. I changed the learning rate from 0.001 the default to 0.00001. I then trained for 5 epochs on JSUT.
+
+![image3](/assets/images/2021-03-17-convolution-based-speech-recognition/image3.jpg)
+
+I now have a reasonable training curve shape, however I feel the loss is still too high and the model is failing at its task of speech recognition. I then try with the larger JVS dataset.
 
 
