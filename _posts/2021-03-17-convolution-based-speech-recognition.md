@@ -38,7 +38,7 @@ This paper: Language Modeling with Gated Convolutional Networks
 
 has information on implementing gated convolutions used gated linear units.
 They present this equation:
-$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
+$$hl(X) = (X*W + b) \otimes \sigma(X*V + c)$$
 
 I believe that the desired results for a gated convolutional layer can be achieved in TensorFlow with this code. I also added batch normalisation because in my experiments the outputs could sometimes explode to high values otherwise.
 
@@ -75,14 +75,6 @@ class GatedConvolution(tf.keras.layers.Layer):
     
     return output
 ```
-
-$$\bigotimes$$
-
-$$\{bigotimes}$$
-
-Implementing Gated convolutions according to the paper
-
-$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
 
 # Network Structure
 The facebook research paper presents 3 different network architectures. I'll start by implementing the one that was designed for the WSJ dataset. Note that the PyTorch implementations are available on their GitHub and it was there I found this architecture file:
