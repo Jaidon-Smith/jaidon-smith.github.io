@@ -61,3 +61,26 @@ There are other kinds of notes in the game but to start I will only consider col
 * Neutral: 8
 
 In this setting that means that there are 2 * 12 * 9 = 216 possible single events.
+
+# Representation
+
+I am interested in approaching this problem using a transformer model so I have been reading this magenta paper:
+
+**MUSIC TRANSFORMER: GENERATING MUSIC WITH LONG-TERM STRUCTURE**
+
+* [https://magenta.tensorflow.org/music-transformer](https://magenta.tensorflow.org/music-transformer)
+* [https://arxiv.org/pdf/1809.04281.pdf](https://arxiv.org/pdf/1809.04281.pdf)
+
+In the paper they discuss different data representations for music. BeatSaber songs more resemble event based MIDI than Bach chorales. In the paper they state that their representation is based on another paper: 
+
+**This Time with Feeling: Learning Expressive Musical Performance**
+
+* [https://arxiv.org/pdf/1808.03715.pdf](https://arxiv.org/pdf/1808.03715.pdf)
+In that paper they say this:
+
+A MIDI excerpt is represented as a sequence of events from the following vocabulary of 413 different events:
+* 128 NOTE-ON events: one for each of the 128 MIDI pitches. Each one starts a new note.
+* 128 NOTE-OFF events: one for each of the 128 MIDI pitches. Each one releases a note.
+* 125 TIME-SHIFT events: each one moves the time step forward by increments of 8 ms up to 1 second.
+* 32 VELOCITY events: each one changes the velocity applied to all subsequent notes (until the next velocity event).
+```
