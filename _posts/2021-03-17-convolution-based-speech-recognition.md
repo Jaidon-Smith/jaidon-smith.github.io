@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) A Convolution Based Speech Recognition Implementation"
+title: "A Convolution Based Speech Recognition Implementation"
 categories:
   - Posts
 tags:
