@@ -107,7 +107,7 @@ Note Location
 
 > Evidence For Independent
 > * Louder dynamics often result in larger swings. I originally thought that location would be needed to capture this but I have realised that multiple notes in the same location can also mean that there is a large swing.
-
+>
 > Evidence For Dependent
 > * For song consistency (ie. verse 1 and verse 2 have a similar structure)
 > * Cyclic actions, (ie. You repeat the same action every bar, just given that notes are there you can't determine the start of the bar)
