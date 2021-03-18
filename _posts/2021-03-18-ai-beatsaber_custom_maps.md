@@ -94,23 +94,27 @@ It would be beneficial I think to split the model into two stages, one that depe
 **Depends on Music**
 
 Timing
-Note Colour: 
-* While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the 
+
+Note Colour
+
+> While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the 
 
 **Unsure**
 
 Note Location
 
-Evidence For Independent
-* Louder dynamics often result in larger swings. I originally thought that location would be needed to capture this but I have realised that multiple notes in the same location can also mean that there is a large swing.
+> Evidence For Independent
+> * Louder dynamics often result in larger swings. I originally thought that location would be needed to capture this but I have realised that multiple notes in the same location can also mean that there is a large swing.
 
-Evidence For Dependent
-* For song consistency (ie. verse 1 and verse 2 have a similar structure)
-* Cyclic actions, (ie. You repeat the same action every bar, just given that notes are there you can't determine the start of the bar)
+> Evidence For Dependent
+> * For song consistency (ie. verse 1 and verse 2 have a similar structure)
+> * Cyclic actions, (ie. You repeat the same action every bar, just given that notes are there you can't determine the start of the bar)
 
 **Independent of Music**
+
 Direction
-* The swing direction depends more on the structure of the notes rather than the music.
+
+> The swing direction depends more on the structure of the notes rather than the music.
 
 Going forward I will consider Note Location independent of the music and see what kind of results I get.
 
