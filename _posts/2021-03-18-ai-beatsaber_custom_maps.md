@@ -87,4 +87,29 @@ In that paper they say this:
 
 While it would be possible to express BeatSaber notes a similar way (ie. an event for the colour, different event for direction), I think I will still combine them into one event. But I will probably handle the timing a similar way.
 
-## What aspects of the no
+## What aspects of the notes depend on the music?
+
+It would be beneficial I think to split the model into two stages, one that depends on the music and one from the output of the first stage. This would mean we could reduce the size of the representation in the model that depends on the music.
+
+**Depends on Music**
+Timing
+Note Colour: 
+* While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the 
+
+**Unsure**
+Note Location
+
+Evidence For Independent
+* Louder dynamics often result in larger swings. I originally thought that location would be needed to capture this but I have realised that multiple notes in the same location can also mean that there is a large swing.
+
+Evidence For Dependent
+* For song consistency (ie. verse 1 and verse 2 have a similar structure)
+* Cyclic actions, (ie. You repeat the same action every bar, just given that notes are there you can't determine the start of the bar)
+
+**Independent of Music**
+Direction
+* The swing direction depends more on the structure of the notes rather than the music.
+
+Going forward I will consider Note Location independent of the music and see what kind of results I get.
+
+
