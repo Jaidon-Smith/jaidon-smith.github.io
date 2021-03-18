@@ -54,4 +54,4 @@ There are other kinds of notes in the game but to start I will only consider col
 * RD: 7
 * Neutral: 8
 
-In this setting that means that there are 2 * 12 * 9 = 216 possible single events.
+In this setting that means that there are 2 * 12 * 9 = 2*12*9 216 possible single events.
