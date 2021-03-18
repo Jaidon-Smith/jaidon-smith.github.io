@@ -76,11 +76,13 @@ In the paper they discuss different data representations for music. BeatSaber so
 **This Time with Feeling: Learning Expressive Musical Performance**
 
 * [https://arxiv.org/pdf/1808.03715.pdf](https://arxiv.org/pdf/1808.03715.pdf)
+* 
 In that paper they say this:
 
-A MIDI excerpt is represented as a sequence of events from the following vocabulary of 413 different events:
-* 128 NOTE-ON events: one for each of the 128 MIDI pitches. Each one starts a new note.
-* 128 NOTE-OFF events: one for each of the 128 MIDI pitches. Each one releases a note.
-* 125 TIME-SHIFT events: each one moves the time step forward by increments of 8 ms up to 1 second.
-* 32 VELOCITY events: each one changes the velocity applied to all subsequent notes (until the next velocity event).
-```
+> A MIDI excerpt is represented as a sequence of events from the following vocabulary of 413 different events:
+> * 128 NOTE-ON events: one for each of the 128 MIDI pitches. Each one starts a new note.
+> * 128 NOTE-OFF events: one for each of the 128 MIDI pitches. Each one releases a note.
+> * 125 TIME-SHIFT events: each one moves the time step forward by increments of 8 ms up to 1 second.
+> * 32 VELOCITY events: each one changes the velocity applied to all subsequent notes (until the next velocity event).
+
+hh
