@@ -24,7 +24,13 @@ I have long been interested in [Google AI's Magenta Project](https://magenta.ten
 
 # Dataset and Map Files
 
+## Obtaining a dataset
+
 Custom maps can be downloaded from [https://bsaber.com/](https://bsaber.com/). Songs can be sorted according to rating which in my experience finds the highest quality maps. They can also be filtered according to difficulty for which I will select Expert+. While there are certainly some good lower difficulty levels, I find these to be the most interesting.
+
+For starters I will collect 5000 of these songs. Supposing on average songs are about 2 min in length that is about 5000*2/60 hours.
+
+## A typical map file
 
 A map file comes as a zip file containing the song as well as a .data for the level. The data is binary encoded json. The most useful sequence is that of the `_notes`. A typical note looks like this:
 
