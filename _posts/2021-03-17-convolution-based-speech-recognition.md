@@ -198,6 +198,6 @@ class GatedConvolutionalEncoder(tf.keras.Model):
 
 # Training
 
-[image1](/assets/images/2021-03-17-convolution-based-speech-recognition/image1.jpg)
+![image1](/assets/images/2021-03-17-convolution-based-speech-recognition/image1.jpg)
 
 
