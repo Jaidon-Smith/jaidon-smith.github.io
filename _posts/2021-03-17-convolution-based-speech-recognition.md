@@ -157,7 +157,7 @@ The corresponding paper: Letter-Based Speech Recognition with Gated ConvNets
 * 
 also gives hints as to what the parameters are corresponding to.
 
-From this information I desired this TensorFlow model:
+From this information I designed this TensorFlow model:
 
 ```python
 class GatedConvolutionalEncoder(tf.keras.Model):
