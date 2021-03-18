@@ -85,6 +85,8 @@ In that paper they say this:
 > * 125 TIME-SHIFT events: each one moves the time step forward by increments of 8 ms up to 1 second.
 > * 32 VELOCITY events: each one changes the velocity applied to all subsequent notes (until the next velocity event).
 
+The use of a time-shift with multiple values is interesting.
+
 While it would be possible to express BeatSaber notes a similar way (ie. an event for the colour, different event for direction), I think I will still combine them into one event. But I will probably handle the timing a similar way.
 
 ## What aspects of the notes depend on the music?
@@ -115,6 +117,8 @@ Note Location
 Direction
 
 > The swing direction depends more on the structure of the notes rather than the music.
+
+If I include location, that means that there are 18 
 
 Going forward I will consider Note Location independent of the music and see what kind of results I get.
 
