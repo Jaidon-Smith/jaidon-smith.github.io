@@ -154,7 +154,10 @@ It is difficult to work out exactly what this is communicating but I believe tha
 
 The corresponding paper: Letter-Based Speech Recognition with Gated ConvNets
 * [https://arxiv.org/abs/1712.09444](https://arxiv.org/abs/1712.09444)
+* 
 also gives hints as to what the parameters are corresponding to.
+
+From this information I desired this TensorFlow model:
 
 ```python
 class GatedConvolutionalEncoder(tf.keras.Model):
