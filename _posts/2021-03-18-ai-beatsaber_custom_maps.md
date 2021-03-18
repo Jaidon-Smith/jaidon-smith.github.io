@@ -92,11 +92,13 @@ While it would be possible to express BeatSaber notes a similar way (ie. an even
 It would be beneficial I think to split the model into two stages, one that depends on the music and one from the output of the first stage. This would mean we could reduce the size of the representation in the model that depends on the music.
 
 **Depends on Music**
+
 Timing
 Note Colour: 
 * While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the 
 
 **Unsure**
+
 Note Location
 
 Evidence For Independent
