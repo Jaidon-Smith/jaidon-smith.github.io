@@ -99,7 +99,7 @@ Timing
 
 Note Colour
 
-> While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the 
+> While not every BeatSaber map does this, my favourite maps are when the blue and the red are highlighting different aspects of the song.
 
 **Unsure**
 
