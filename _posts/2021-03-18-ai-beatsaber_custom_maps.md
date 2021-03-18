@@ -28,7 +28,7 @@ I have long been interested in [Google AI's Magenta Project](https://magenta.ten
 
 Custom maps can be downloaded from [https://bsaber.com/](https://bsaber.com/). Songs can be sorted according to rating which in my experience finds the highest quality maps. They can also be filtered according to difficulty for which I will select Expert+. While there are certainly some good lower difficulty levels, I find these to be the most interesting.
 
-For starters I will collect 5000 of these songs. Supposing on average songs are about 2 min in length that is about 5000*2/60 hours.
+For starters I will collect 5000 of these songs. It is hard to say how many hours this will be but I expect it to be somewhere between 100 and 200 hours.
 
 ## A typical map file
 
