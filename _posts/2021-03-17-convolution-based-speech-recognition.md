@@ -33,6 +33,57 @@ GitHub PyTorch Implementation
 
 # Gated Convolution
 
+This paper: Language Modeling with Gated Convolutional Networks
+* [https://paperswithcode.com/paper/language-modeling-with-gated-convolutional](https://paperswithcode.com/paper/language-modeling-with-gated-convolutional)
+
+has information on implementing gated convolutions used gated linear units.
+They present this equation:
+$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
+
+I believe that the desired results for a gated convolutional layer can be achieved in TensorFlow with this code. I also added batch normalisation because in my experiments the outputs could sometimes explode to high values otherwise.
+
+```python
+class GatedConvolution(tf.keras.layers.Layer):
+  def __init__(self, filters, kernel_size, dropout_rate, padding='causal'):
+    super(GatedConvolution, self).__init__()
+
+    self.convolution = tf.keras.layers.Conv1D(
+    filters=filters, kernel_size=kernel_size, padding=padding,
+    )
+
+    self.gated = tf.keras.layers.Conv1D(
+    filters=filters, kernel_size=kernel_size, padding=padding,
+    )
+
+    self.multiply = tf.keras.layers.Multiply()
+    
+    self.norm = tf.keras.layers.BatchNormalization()
+    
+    self.dropout = tf.keras.layers.Dropout(dropout_rate)
+    
+  def call(self, x, training):
+
+    convolution_output = self.convolution(x)  # (batch_size, input_seq_len, d_model)
+
+    gate_output = tf.keras.activations.sigmoid(self.gated(x))
+    
+    output = self.multiply([convolution_output, gate_output])
+    
+    output = self.norm(output, training=training)
+
+    output = self.dropout(output, training=training)
+    
+    return output
+```
+
+$$\bigotimes$$
+
+$$\{bigotimes}$$
+
+Implementing Gated convolutions according to the paper
+
+$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
+
 # Network Structure
 The facebook research paper presents 3 different network architectures. I'll start by implementing the one that was designed for the WSJ dataset. Note that the PyTorch implementations are available on their GitHub and it was there I found this architecture file:
 
@@ -109,8 +160,4 @@ WN 0 L 500 NLABEL
 
 It is difficult to work out exactly what this is communicating but I believe that (WN 3 C) represent convolutions, (GLU 2) represents gated linear units and (DO) represents dropout.
 
-$$\bigotimes$$
 
-$$\{bigotimes}$$
-
-$$hl(X) = (X*W + b) \bigotimes \sigma(X*V + c)$$
