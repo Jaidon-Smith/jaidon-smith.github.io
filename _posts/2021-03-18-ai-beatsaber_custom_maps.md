@@ -152,7 +152,7 @@ $$Q_{reshaped}$$ is Q but reshaped to $$(L, 1, D)$$
 
 $$S^{rel} = QR^T$$ has shape $$(L, L)$$
 
-$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + S^{rel}}{d})V$$
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + S^{rel}}{\sqrt{d}})V$$
 
 $$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + Q_{reshaped}R^T}{d})V$$
 
