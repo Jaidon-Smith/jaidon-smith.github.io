@@ -154,7 +154,7 @@ $$S^{rel} = QR^T$$ has shape $$(L, L)$$
 
 $$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + S^{rel}}{\sqrt{d}})V$$
 
-$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + Q_{reshaped}R^T}{d})V$$
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + Q_{reshaped}R^T}{\sqrt{d}})V$$
 
 But what I am finding strange about this is that $$Q$$ is shape $$(L, D)$$ and $$K^T$$ is shape $$(D, L)$$ so it is natural that $$QK^T$$ is shape $$(L, L)$$.
 
