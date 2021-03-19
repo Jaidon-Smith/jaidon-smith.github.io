@@ -150,6 +150,13 @@ The queries Q is reshaped to $$(L, 1, D)$$
 
 $$S^{rel} = QR^T$$ has shape $$(L, L)$$
 
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + S^{rel}}{d})V$$
+
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + QR^T}{d})V$$
+
+But what I am finding strange about this is that $$Q$$ is shape $$(L, D)$$ and $$K^T$$ is shape $$(D, L)$$ so it is natural that $$QK^T$$ is shape $$(L, L)$$.
+
+However $$R$$ is shape $$(L, L, D)$$ instead of the $$(L, D)$$ of $$K$$.
 
 
 
