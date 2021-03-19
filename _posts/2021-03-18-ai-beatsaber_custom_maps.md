@@ -164,7 +164,11 @@ The answer to this is understanding what it actually means to multiply $$Q_{resh
 
 In Tensorflow, the matmul function only acts on the last two dimensions and all of the earlier ones behave like a batch dimension. So essentially for every $$L$$ in the first dimension multiply a shape $$(1, D)$$ with $$(L, D)^T$$ with the transpose making it shape $$(D, L)$$
 
-This will mean that the output has shape $$(L, 1, L)$$ and has to be reshaped into $$(L, L)$$ before we 
+This will mean that the output has shape $$(L, 1, L)$$ and has to be reshaped into $$(L, L)$$ to form $$S^{rel}$$.
+
+**Music Transformer memory efficient method**
+
+
 
 
 
