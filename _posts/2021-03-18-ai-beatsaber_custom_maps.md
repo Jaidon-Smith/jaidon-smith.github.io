@@ -138,17 +138,17 @@ They have a good explanationnation of their method but I think it would be good 
 
 **The original**
 
-Let D be the transformer depth dimension.
+Let $$D$$ be the transformer depth dimension.
 
-L is the number of input vectors.
+$$L$$ is the number of input vectors.
 
-Then $$E^r of shape (L, D)$$
+Then $$E^r$$ of shape $$(L, D)$$
 
-$$R of shape(L, L, D)$$
+$$R$$ of shape $$(L, L, D)$$
 
-$$The queries Q is reshaped to (L, 1, D)$$
+The queries Q is reshaped to $$(L, 1, D)$$
 
-$$S^{rel} = QR^T has shape (L, L)$$
+$$S^{rel} = QR^T$$ has shape $$(L, L)$$
 
 
 
