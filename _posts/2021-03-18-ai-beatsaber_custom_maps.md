@@ -124,4 +124,32 @@ If I do not consider location then there would be 2 possible events not consider
 
 Going forward I will consider Note Location independent of the music and see what kind of results I get but I may revisit this.
 
+# Understanding and implementing RELATIVE POSITIONAL SELF-ATTENTION
+
+This section is about understanding and implementing the sytem employed in the Music Transformer for encoding relative postion information.
+
+From the Music Transformer Paper:
+
+> As the Transformer model relies solely on positional sinusoids to represent timing information, Shaw
+et al. (2018) introduced relative position representations to allow attention to be informed by how far
+two positions are apart in a sequence.
+
+They have a good explanationnation of their method but I think it would be good to entirely remove the concept of heads to make it clearer.
+
+**The original**
+
+Let D be the transformer depth dimension.
+
+L is the number of input vectors.
+
+Then $$E^r of shape (L, D)$$
+
+$$R of shape(L, L, D)$$
+
+$$The queries Q is reshaped to (L, 1, D)$$
+
+$$S^{rel} = QR^T has shape (L, L)$$
+
+
+
 
