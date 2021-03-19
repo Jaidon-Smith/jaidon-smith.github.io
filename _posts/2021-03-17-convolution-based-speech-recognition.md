@@ -215,6 +215,8 @@ I searched what might cause this and I found that people had similar strange inc
 
 ![image3](/assets/images/2021-03-17-convolution-based-speech-recognition/image3.jpg)
 
-I now have a reasonable training curve shape, however I feel the loss is still too high and the model is failing at its task of speech recognition. I then try with the larger JVS dataset.
+I now have a reasonable training curve shape, however I feel the loss is still too high and the model is failing at its task of speech recognition. I then try with the larger JVS dataset for 5 epochs.
 
+![image4](/assets/images/2021-03-17-convolution-based-speech-recognition/image4.jpg)
 
+The training and validation loss still seems to be decreasing, so I will try training for a bit longer.
