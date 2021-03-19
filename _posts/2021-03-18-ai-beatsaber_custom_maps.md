@@ -179,6 +179,13 @@ The result is shape $$(L, L)$$. It contains all of the correct elements of $$S^{
 
 However it is better to 
 
+$$\begin{equation}
+   \begin{matrix} 
+   a_{11} & a_{12} & a_{13}  \\
+   a_{21} & a_{22} & a_{23}  \\
+   a_{31} & a_{32} & a_{33}  \\
+   \end{matrix} 
+\end{equation}$$
 
 
 
