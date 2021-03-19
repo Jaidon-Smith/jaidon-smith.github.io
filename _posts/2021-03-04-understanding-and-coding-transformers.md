@@ -186,7 +186,7 @@ Papers
 
 ## Scaled dot product attention
 
-$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{d})V$$
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T}}{\sqrt{d}})V$$
 
 It will be helpful to understand this formula in terms of the original attention formulas.
 
