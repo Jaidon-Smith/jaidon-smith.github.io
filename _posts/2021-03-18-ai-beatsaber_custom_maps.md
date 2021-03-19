@@ -166,8 +166,15 @@ In Tensorflow, the matmul function only acts on the last two dimensions and all 
 
 This will mean that the output has shape $$(L, 1, L)$$ and has to be reshaped into $$(L, L)$$ to form $$S^{rel}$$.
 
+The end effect of all of the above is that if you want to determine the positional encoding for the query $$q_1$$ and the query $$q_2$$ with a distance of $$x$$ units apart then you would $$q_1$$ dot producted with a vector representing the distance $$x$$. It is by this reasoning we can develop a memory efficient implementation of relative positional encoding.
+
 **Music Transformer memory efficient method**
 
+$$E^r$$ is of shape $$(L, D)$$ and represents the positional vectors for all of the $$L$$ possible displacement between queries.
+
+
+
+We multiply this by all of the queries
 
 
 
