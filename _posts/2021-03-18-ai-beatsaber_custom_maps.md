@@ -160,7 +160,7 @@ But what I am finding strange about this is that $$Q$$ is shape $$(L, D)$$ and $
 
 However $$R$$ is shape $$(L, L, D)$$ instead of the $$(L, D)$$ of $$K$$.
 
-The answer to this is understanding what it actually means to multiply $$Q_{reshaped}$$ and $$R^T$$ with shapes $$(L, 1, D)$$ and $$(L, L, D) Transposed$$ and show that it has shape $$(L, L)$$ as required.
+The answer to this is understanding what it actually means to multiply $$Q_{reshaped}$$ and $$R^T$$ with shapes $$(L, 1, D)$$ and $$(L, L, D)^T$$ and show that it has shape $$(L, L)$$ as required.
 
 
 
