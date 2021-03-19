@@ -162,7 +162,7 @@ However $$R$$ is shape $$(L, L, D)$$ instead of the $$(L, D)$$ of $$K$$.
 
 The answer to this is understanding what it actually means to multiply $$Q_{reshaped}$$ and $$R^T$$ with shapes $$(L, 1, D)$$ and $$(L, L, D)^T$$ and show that it has shape $$(L, L)$$ as required.
 
-In Tensorflow, the matmul function only acts on the last two dimensions and all of the earlier ones behave like a batch dimension. So essentially for every L in the first dimension multiply a shape $$(1, D)$$ with $$(L, D)^T$$ with the transpose making it shape $$(D, L)^T$$
+In Tensorflow, the matmul function only acts on the last two dimensions and all of the earlier ones behave like a batch dimension. So essentially for every $$L$$ in the first dimension multiply a shape $$(1, D)$$ with $$(L, D)^T$$ with the transpose making it shape $$(D, L)$$
 
 This will mean that the output has shape $$(L, 1, L)$$ and has to be reshaped into $$(L, L)$$ before we 
 
