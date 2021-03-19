@@ -146,17 +146,21 @@ Then $$E^r$$ of shape $$(L, D)$$
 
 $$R$$ of shape $$(L, L, D)$$
 
-The queries Q is reshaped to $$(L, 1, D)$$
+The queries Q with shape $$(L, D)$$.
+
+$$Q_{reshaped}$$ is Q but reshaped to $$(L, 1, D)$$
 
 $$S^{rel} = QR^T$$ has shape $$(L, L)$$
 
 $$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + S^{rel}}{d})V$$
 
-$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + QR^T}{d})V$$
+$$Attention(Q,K,V)=softmax_{k}(\frac{QK^{T} + Q_{reshaped}R^T}{d})V$$
 
 But what I am finding strange about this is that $$Q$$ is shape $$(L, D)$$ and $$K^T$$ is shape $$(D, L)$$ so it is natural that $$QK^T$$ is shape $$(L, L)$$.
 
 However $$R$$ is shape $$(L, L, D)$$ instead of the $$(L, D)$$ of $$K$$.
+
+The answer to this is understanding what it actually means to multiply $$Q_{reshaped}$$ and $$R^T$$ with shapes $$(L, 1, D)$$ and $$(L, L, D) Transposed$$ and show that it has shape $$(L, L)$$ as required.
 
 
 
