@@ -45,7 +45,7 @@ A map file comes as a zip file containing the song as well as a .data for the le
 ```
 There are other kinds of notes in the game but to start I will only consider coloured notes.
 
-* _time: represents the time in seconds that the note occured and is a decimal.
+* _time: represents the time in beats that the note occured and is a decimal. We need to use the 'beats per minute' in the info file to convert this to time in seconds.
 * _lineIndex and _lineLayer represent positioning. Notes can occupy a grid of 3 rows and 4 columns. _lineIndex is the column, _lineLayer is the row. The bottom left corner represents (0,0)
 * _type: 0 if the note is red, 1 if the note is blue.
 
