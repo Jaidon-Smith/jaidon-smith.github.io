@@ -187,5 +187,10 @@ $$\begin{equation}
    \end{matrix} 
 \end{equation}$$
 
+# Transformer training curves
+![image](https://user-images.githubusercontent.com/36981791/113829246-9d1b5680-97c8-11eb-8139-dd04fd0428f5.png)
+![image1](/assets/images/2021-03-18-ai-beatsaber_custom_maps/image1.jpg)
+![image2](/assets/images/2021-03-18-ai-beatsaber_custom_maps/image1.jpg)
+
 
 
