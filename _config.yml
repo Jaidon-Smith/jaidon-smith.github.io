@@ -83,7 +83,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jaidon-smith-7717091b8/"
       
- collections:
+collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
