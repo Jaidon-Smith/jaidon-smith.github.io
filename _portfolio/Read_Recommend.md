@@ -5,7 +5,7 @@ header:
   teaser: /assets/images/previews/ReadRecommendPreview.jpg
 ---
 
-Read Recommend is a web app project built for COMP3900 by:
+Read Recommend is a web app project built for the UNSW course COMP3900 by:
 * Benjamin Smith 
 * Francis Weate 
 * Jaidon Smith 
