@@ -5,7 +5,7 @@ header:
   teaser: /assets/images/previews/AIKaraokePreview.jpg
 ---
 
-# AiKaraoke
+# AIKaraoke
 
 Transform any YouTube video into a karaoke version with on-screen lyrics and backing track.
 
