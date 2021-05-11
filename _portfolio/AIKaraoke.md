@@ -9,6 +9,11 @@ header:
 
 Transform any YouTube video into a karaoke version with on-screen lyrics and backing track.
 
+**11-5-21**
+I am hosting a prototype of the app so give it try.
+
+[https://ai-karaoke-311510.ts.r.appspot.com/](https://ai-karaoke-311510.ts.r.appspot.com/)
+
 **27-4-21**
 
 The site is currently under construction and not accessible. In the meantime I have provided a demo video to demonstrate the functionality.
