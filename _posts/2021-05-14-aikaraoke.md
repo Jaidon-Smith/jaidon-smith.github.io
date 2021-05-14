@@ -18,7 +18,7 @@ The site is available here: [https://jaidon-smith.github.io/portfolio/AIKaraoke/
 
 This post is focused on the cloud infrastructure rather than the machine learning algorithms. 
 
-When hosting this site I wanted an infrastructure that would allow for scalibility from 0 when there are no users to scaling automatically scaling up for many users. It would require a cloud platform to achieve the necessary optimisation of resources and therefore I used Google Cloud Platform for this task.
+When hosting this site I wanted an infrastructure that would allow for automatic scaling to 0 when there are no users and automatic scaling up for many users. It would require a cloud platform to achieve the necessary optimisation of resources and therefore I used Google Cloud Platform for this task.
 
 # The Infrastructure
 
