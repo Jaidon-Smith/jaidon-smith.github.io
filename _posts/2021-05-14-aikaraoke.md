@@ -28,5 +28,5 @@ When hosting this site I wanted an infrastructure that would allow for automatic
 
 * Cloud Run is evoked by Cloud Task. This means that the processing happens asynchronously, or that the user doesn't have to wait for the response that the processing is done. It happens in the background and the video page becomes active once the processing is finished.
 
-* At the moment there is no need for a database so I have just been using Google Cloud Storage for file storage. I may user firestore if I want a NoSQL database in the future.
+* At the moment there is no need for a database so I have just been using Google Cloud Storage for file storage. I may user Cloud Firestore if I want a NoSQL database in the future.
 
