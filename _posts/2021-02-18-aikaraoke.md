@@ -14,7 +14,7 @@ toc_sticky: true
 ---
 
 AIKaraoke is a site that transforms any YouTube video into a karaoke version with on-screen lyrics and backing track.
-The site is available here [https://jaidon-smith.github.io/portfolio/AIKaraoke/](https://jaidon-smith.github.io/portfolio/AIKaraoke/).
+The site is available here: [https://jaidon-smith.github.io/portfolio/AIKaraoke/](https://jaidon-smith.github.io/portfolio/AIKaraoke/).
 
 This post is focused on the cloud infrastructure rather than the machine learning algorithms. 
 
