@@ -22,7 +22,7 @@ When hosting this site I wanted an infrastructure that would allow for automatic
 
 # The Infrastructure
 
-* The frontend uses 'App Engine' where I run Django in a standard Python environment. In the future I would consider swapping this out for React or Angular and using a Javascript runtime, this would allow me to create a more visually appealing frontend.
+* The frontend uses App Engine where I run Django in a standard Python environment. In the future I would consider swapping this out for React or Angular and using a Javascript runtime, this would allow me to create a more visually appealing frontend.
 
 * The AI processing happens in Cloud Run. This is great for resource use optimisation and scaling to 0 in that machines only need to exist if there is a job to do. This design choice also allowed me to install linux command line tools that are not available in a standard App Engine runtime.
 
