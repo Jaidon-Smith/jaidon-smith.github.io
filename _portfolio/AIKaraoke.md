@@ -9,6 +9,8 @@ header:
 
 Transform any YouTube video into a karaoke version with on-screen lyrics and backing track.
 
+Associated blog post available here: [https://jaidon-smith.github.io/posts/aikaraoke/](https://jaidon-smith.github.io/posts/aikaraoke/)
+
 ## 11-5-21
 
 I am hosting a prototype of the app so give it try.
