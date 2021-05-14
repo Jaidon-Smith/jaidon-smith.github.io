@@ -203,7 +203,7 @@ I trained on the JVS Japanese dataset. I identified some very strange and unstab
 
 ![image1](/assets/images/2021-03-17-convolution-based-speech-recognition/image1.jpg)
 
-I thought that perhaps I had implemented the gating incorrecly so I experimented with removing this and just having convolutions but these large value explosions still occured.
+I thought that perhaps I had implemented the gating incorrectly so I experimented with removing this and just having convolutions but these large value explosions still occured.
 
 I then tried changing datasets to the JSUT which is shorter and has a single speaker.
 
