@@ -21,6 +21,8 @@ Associated blog post available here: [https://jaidon-smith.github.io/posts/aikar
 
 **Here Comes The Sun - Bill Wurtz**: [https://ai-karaoke-311510.ts.r.appspot.com/video/7GO5QA4NI84O](https://ai-karaoke-311510.ts.r.appspot.com/video/7GO5QA4NI84O)
 
+**Tennis Elbow - Sky Sailing**: [https://ai-karaoke-311510.ts.r.appspot.com/video/H773I2IO00CJ](https://ai-karaoke-311510.ts.r.appspot.com/video/H773I2IO00CJ)
+
 ## 20-5-21
 
 Unfortunately any VEVO videos will no longer work since they implemented a change that prevents embedding their youtube videos on a site.
