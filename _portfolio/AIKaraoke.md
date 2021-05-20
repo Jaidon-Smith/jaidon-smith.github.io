@@ -9,7 +9,19 @@ header:
 
 Transform any YouTube video into a karaoke version with on-screen lyrics and backing track.
 
+Prototype here: [https://ai-karaoke-311510.ts.r.appspot.com/](https://ai-karaoke-311510.ts.r.appspot.com/)
+
 Associated blog post available here: [https://jaidon-smith.github.io/posts/aikaraoke/](https://jaidon-smith.github.io/posts/aikaraoke/)
+
+Some demos:
+
+**Viva La Vida - Coldplay**
+[https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62](https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62)
+
+## 20-5-21
+
+Unfortunately any VEVO videos will no longer work since they implemented a change that prevents embedding their youtube videos on a site.
+In the future for user convenience I may consider performing a check of this before sending the video for processing.
 
 ## 11-5-21
 
