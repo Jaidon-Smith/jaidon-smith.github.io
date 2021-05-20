@@ -17,7 +17,7 @@ Associated blog post available here: [https://jaidon-smith.github.io/posts/aikar
 
 **Viva La Vida - Coldplay**: [https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62](https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62)
 
-**La de da de da de da de day oh - Bill Wurtz**: [https://ai-karaoke-311510.ts.r.appspot.com/video/FDUNFJBAFWWP](https://ai-karaoke-311510.ts.r.appspot.com/video/FDUNFJBAFWWP)
+**La de da de da de da de day oh - Bill Wurtz**: [https://ai-karaoke-311510.ts.r.appspot.com/video/3S9MLSOZZ447](https://ai-karaoke-311510.ts.r.appspot.com/video/3S9MLSOZZ447)
 
 **Here Comes The Sun - Bill Wurtz**: [https://ai-karaoke-311510.ts.r.appspot.com/video/7GO5QA4NI84O](https://ai-karaoke-311510.ts.r.appspot.com/video/7GO5QA4NI84O)
 
