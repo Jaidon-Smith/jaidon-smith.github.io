@@ -13,7 +13,7 @@ Prototype here: [https://ai-karaoke-311510.ts.r.appspot.com/](https://ai-karaoke
 
 Associated blog post available here: [https://jaidon-smith.github.io/posts/aikaraoke/](https://jaidon-smith.github.io/posts/aikaraoke/)
 
-Some demos:
+## Some demos
 
 **Viva La Vida - Coldplay**: [https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62](https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62)
 
