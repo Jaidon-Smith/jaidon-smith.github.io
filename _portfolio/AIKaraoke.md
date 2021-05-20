@@ -15,8 +15,8 @@ Associated blog post available here: [https://jaidon-smith.github.io/posts/aikar
 
 Some demos:
 
-**Viva La Vida - Coldplay: **
-[https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62](https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62)
+**Viva La Vida - Coldplay**
+[: https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62](https://ai-karaoke-311510.ts.r.appspot.com/video/U9CGJTMRCZ62)
 
 ## 20-5-21
 
