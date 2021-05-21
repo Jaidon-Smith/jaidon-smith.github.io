@@ -25,7 +25,7 @@ Associated blog post available here: [https://jaidon-smith.github.io/posts/aikar
 
 ## 20-5-21
 
-Unfortunately any VEVO videos will no longer work since they implemented a change that prevents embedding their youtube videos on a site.
+Unfortunately any Vevo videos will no longer work since they implemented a change that prevents embedding their youtube videos on a site.
 In the future for user convenience I may consider performing a check of this before sending the video for processing.
 
 ## 11-5-21
