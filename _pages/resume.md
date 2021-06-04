@@ -51,5 +51,5 @@ title: "Resume"
 
 ## Work
 * UNSW Student Tutor (COMP9517 - Computer Vision) - Term 3 2019
-* Officeworks Casual Retail Technology Team Member (2017 - Present)
+* Officeworks Technology Team Member (Part Time) (2017 - Present)
 
