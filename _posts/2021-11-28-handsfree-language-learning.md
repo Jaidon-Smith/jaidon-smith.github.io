@@ -36,10 +36,11 @@ This confirmed to me that the second iteration of this should employ some kind o
 # Hands-Free Foreign Vocabulary Learning
 This is the plan for the next iteration of this idea.
 
-The user provides a list of English and Foreign Word pairs and begins a session.
-The app says the english word.
-The user has limited time to say the Foreign pronounication.
-Speech recognition used to provide feedback to the user.
-Uses an SRS system, so if the word is determined to be correct, it will take longer to appear again.
-Repeat for the next word.
+* The user provides a list of English and Foreign Word pairs and begins a session.
+* The app says the english word.
+* The user has limited time to say the Foreign pronounication.
+* Speech recognition used to provide feedback to the user.
+* Uses an SRS system, so if the word is determined to be correct, it will take longer to appear again.
+
+Repeat these steps for the next word.
 
