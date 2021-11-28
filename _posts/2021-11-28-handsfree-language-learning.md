@@ -28,7 +28,7 @@ Essentially you would provide to the program a list of English and Foreign Word 
 
 One weekend I prepared an audio file of about 2h of words and then left the house to exercise, jogging and walking for about 5h.
 I ended up playing parts of the track multiple times and had these thoughts:
-* Without requireing user interaction, playing the file has limited long term usefullness for language learning. Eventually I found myself just beginning to ignore it.
+* Without requiring user interaction, playing the file has limited long term usefullness for language learning. Eventually I found myself just beginning to ignore it.
 * Once you've played it a few times you start to get used to some of the word orderings and it doesn't feel random anymore.
 
 This confirmed to me that the second iteration of this should employ some kind of speech recognition to be more interactive.
