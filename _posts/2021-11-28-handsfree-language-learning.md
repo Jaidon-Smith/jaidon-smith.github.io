@@ -40,7 +40,7 @@ This is the plan for the next iteration of this idea.
 * The app says the english word.
 * The user has limited time to say the Foreign pronounication.
 * Speech recognition used to provide feedback to the user.
-* Uses an SRS system, so if the word is determined to be correct, it will take longer to appear again.
+* Uses an SRS system meaning that if the word is determined to be correct it will take longer to appear again.
 
 Repeat these steps for the next word.
 
