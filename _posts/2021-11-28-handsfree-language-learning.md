@@ -12,6 +12,7 @@ excerpt: "My work on a hands-free app for learning foreign words.
 toc: true
 toc_sticky: true
 ---
+# Introduction
 Foreign language learning has been a hobby of mine for some time. While there are a lot of tools and apps for doing this, most of these require regular physical interaction with a device and access to a screen. Increasingly I have wished that I could so some of this learning during activities where it is impracticle to interact with a device or view a screen (Such as exercising or driving).
 
 In response to this problem many companies and individuals put out lessons to teach basic grammer or vocablulary in the form of audio files. In my own experience I haven't found these to be all that effective. I would attribute that to these main reasons:
