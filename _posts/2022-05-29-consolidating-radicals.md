@@ -1,0 +1,902 @@
+---
+title: "(Under Construction) Consolidating Radicals for Kanji Learning"
+categories:
+  - Posts
+tags:
+  - Japanese
+collections:
+  - Japanese
+excerpt: "I compare kanji radicals accross Wanikani, Jisho/kradfile and the 214 Kangxi radicals.
+"
+toc: true
+toc_sticky: true
+---
+# Introduction
+A fundamental concept of the kanji learning site Wanikani is that kanji are composed of parts called radicals. These radicals are given names or meanings. Radicals get combined to form the kanji and a mnemonic utilising the radical meanings helps for memorising the kanji.
+
+Radicals however are actually a foundational and traditional concept for kanji not unique to Wanikani. The Kangxi radicals [https://en.wikipedia.org/wiki/Kangxi_radical](https://en.wikipedia.org/wiki/Kangxi_radical) are a more traditional list of 214 radicals that I see mentioned often. Where both Wanikani and Kangxi have the same radicals, the meanings do not always coincide.
+
+There are also sites that offer a kanji lookup by radical feature. Many of these are based on the kradfile [http://www.edrdg.org/krad/kradinf.html](http://www.edrdg.org/krad/kradinf.html) work. The kradfile work was a modern effort to indentify the parts of kanji. Jisho [https://jisho.org/](https://jisho.org/) is one such site that has a kanji lookup by radical feature.
+
+The aim of this post is to consolidate the radicals across Wanikani, kradfile and the 214 Kangxi. Some of the goals of this exercise:
+* Know which Wanikani radicals are actual radicals that can be used with radical lookup sites.
+* Be aware of the traditional meanings of the radicals.
+* Be aware of other radicals that are not mentioned by Wanikani.
+* Be aware of when two Wanikani radicals are actually the same, just one is a transformed version of the other.
+
+This will be useful for using radicals to learn Kanji that are not offered by Wanikani.
+
+# Comparing 1 Stroke Radicals
+I follow the kradfile ordering of the radicals.
+
+## 一 One
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Ground||One|
+|Kangxi Number|||1|
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_1](https://en.wikipedia.org/wiki/Radical_1)
+
+## 丨 Stick
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Stick||Line|
+|Kangxi Number|||2|
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_2](https://en.wikipedia.org/wiki/Radical_2)
+
+## 丶 Drop
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Drop||Dot|
+|Kangxi Number|||3|
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_3](https://en.wikipedia.org/wiki/Radical_3)
+
+##	丿 Slide
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Slide||Slash|
+|Kangxi Number|||4|
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_4](https://en.wikipedia.org/wiki/Radical_4)
+
+##	乙 Nose
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Nose||Second/Latter|
+|Kangxi Number|||5|
+|Wanikani Level|29|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_5](https://en.wikipedia.org/wiki/Radical_5)
+
+##	乚 Umbrella
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✖|✔|
+|Meaning|Umbrella||Second/Latter|
+|Kangxi Number|||5|
+|Wanikani Level|4|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_5](https://en.wikipedia.org/wiki/Radical_5)
+
+The reason that this is not available in Jisho is that kradfile does not distinguish between 乙 and 乚. The words that Wanikani lists as using 乚, in Jisho this uses 乙.
+
+
+##	亅 Barb
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Barb||Hook|
+|Kangxi Number|||6|
+|Wanikani Level|1|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_6](https://en.wikipedia.org/wiki/Radical_6)
+
+# Comparing 2 Stroke Radicals
+
+##	二 Two
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Two||Two|
+|Kangxi Number|||7|
+|Wanikani Level|1|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_7](https://en.wikipedia.org/wiki/Radical_7)
+
+##	亠 Lid
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Lid||Lid|
+|Kangxi Number|||8|
+|Wanikani Level|1|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_8](https://en.wikipedia.org/wiki/Radical_8)
+
+##	人 Person
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Person||Man|
+|Kangxi Number|||9|
+|Wanikani Level|1|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_9](https://en.wikipedia.org/wiki/Radical_9)
+
+##	亻 Leader
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Leader||Man|
+|Kangxi Number|||9|
+|Wanikani Level|4|||
+
+The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_9](https://en.wikipedia.org/wiki/Radical_9)
+
+This is a transformed version of 人
+
+##	𠆢 Hat
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hat||Man|
+|Kangxi Number|||9|
+|Wanikani Level|3|||
+
+This is a transformed version of 人
+
+##	儿 Legs
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Legs||Legs|
+|Kangxi Number|||10|
+|Wanikani Level|1|||
+
+## 入 Enter
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Enter||Enter|
+|Kangxi Number|||11|
+|Wanikani Level|1|||
+
+## 八 Fins
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fins||Eight|
+|Kangxi Number|||12|
+|Wanikani Level|1|||
+
+## 丷 Horns
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Horns||Eight|
+|Kangxi Number|||12|
+|Wanikani Level|4|||
+
+This is a transformed version of 八
+
+## 冂 Head
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Head||Wide|
+|Kangxi Number|||13|
+|Wanikani Level|2|||
+
+## 冖 Forehead
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Forehead||Cloth Cover|
+|Kangxi Number|||14|
+|Wanikani Level|4|||
+
+## 冫 Ice
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Ice||Ice|
+|Kangxi Number|||15|
+|Wanikani Level|5|||
+
+## 几 Table
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Table||Table|
+|Kangxi Number|||16|
+|Wanikani Level|7|||
+
+## 凵 Box
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Box||Receptacle|
+|Kangxi Number|||17|
+|Wanikani Level|6|||
+
+## 刀 Sword
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sword||Knife|
+|Kangxi Number|||18|
+|Wanikani Level|2|||
+
+## 刂 Knife
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Knife||Knife|
+|Kangxi Number|||18|
+|Wanikani Level|6|||
+
+Is a transformed version of 刀
+
+## 力 Power
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Power||Power|
+|Kangxi Number|||19|
+|Wanikani Level|1|||
+
+## 勹 Prison
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Prison||Wrap|
+|Kangxi Number|||20|
+|Wanikani Level|1|||
+
+## 匕 Spoon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Spoon||Spoon|
+|Kangxi Number|||21|
+|Wanikani Level|3|||
+
+## 匚 Cage
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cage||Box|
+|Kangxi Number|||22|
+|Wanikani Level|8|||
+
+## 十 Cross
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cross||Ten|
+|Kangxi Number|||24|
+|Wanikani Level|1|||
+
+## 卜 Toe
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Toe||Divination|
+|Kangxi Number|||25|
+|Wanikani Level|1|||
+
+## 卩 Stamp
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Stamp||Seal|
+|Kangxi Number|||26|
+|Wanikani Level|7|||
+
+## 厂 CLiff
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cliff||Cliff|
+|Kangxi Number|||27|
+|Wanikani Level|4|||
+
+## 厶 Private
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Private||Private|
+|Kangxi Number|||28|
+|Wanikani Level|2|||
+
+## 又 Stool
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Stool||Again|
+|Kangxi Number|||29|
+|Wanikani Level|2|||
+
+## マ Mama
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Mama|||
+|Wanikani Level|6|||
+
+This the katakana for 'ma'. It does not appear in the Kangxi radicals.
+
+## 九 Nine
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Nine|||
+|Wanikani Level|1|||
+
+Nine does not appear in the Kangxi radicals.
+
+## 乃 Stairs
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Stairs|||
+|Wanikani Level|10|||
+
+Stairs does not appear in the Kangxi radicals.
+
+## 𠂉 Gun
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Stairs|||
+|Wanikani Level|1|||
+
+Gun does not appear in the Kangxi radicals.
+
+# Comparing 3 Stroke Radicals
+
+## ⻌ Scooter
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Scooter||Walk|
+|Kangxi Number|||162|
+|Wanikani Level|5|||
+
+This is a transformed form of the Kangxi radical 辵
+
+## 口 Mouth
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Mouth||Mouth|
+|Kangxi Number|||30|
+|Wanikani Level|1|||
+
+## ✖ 口 Enclosure
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Enclosure|
+|Kangxi Number|||31|
+
+Wanikani just has the one radical of this and mouth. This radical is when the square contains other radicals.
+
+## 土 Dirt
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Dirt||Earth|
+|Kangxi Number|||32|
+|Wanikani Level|2|||
+
+## 士 Samurai
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Samurai||Scholar|
+|Kangxi Number|||33|
+|Wanikani Level|4|||
+
+## 夂 Winter
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Winter||Go|
+|Kangxi Number|||34|
+|Wanikani Level|3|||
+
+## 夕 Evening
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Evening||Evening|
+|Kangxi Number|||36|
+|Wanikani Level|2|||
+
+## 大 Big
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Big||Big|
+|Kangxi Number|||37|
+|Wanikani Level|1|||
+
+## 女 Woman
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Woman||Woman|
+|Kangxi Number|||38|
+|Wanikani Level|1|||
+
+## 子 Child
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Child||Child|
+|Kangxi Number|||39|
+|Wanikani Level|2|||
+
+## 宀 Roof
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Roof||Roof|
+|Kangxi Number|||40|
+|Wanikani Level|4|||
+
+## 寸 Measurement
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Measurement||Inch|
+|Kangxi Number|||41|
+|Wanikani Level|4|||
+
+## 小 Small
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Small||Small|
+|Kangxi Number|||42|
+|Wanikani Level|2|||
+
+## ⺌ Triceratops
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Triceratops||Small|
+|Kangxi Number|||42|
+|Wanikani Level|3|||
+
+In Kangxi, this is the transformed version of 小
+
+## 尢 Pirate
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Pirate||Lame|
+|Kangxi Number|||43|
+|Wanikani Level|30|||
+
+## 尸 Flag
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Flag||Corpse|
+|Kangxi Number|||44|
+|Wanikani Level|2|||
+
+## ✖ 屮 Sprout
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Sprout|
+|Kangxi Number|||45|
+
+Wanikani has instead 屯 which they use for the kanji that have 屮 in jisho.
+
+## 山 Mountain
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Mountain||Mountain|
+|Kangxi Number|||46|
+|Wanikani Level|1|||
+
+## 川 River
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|River||River|
+|Kangxi Number|||47|
+|Wanikani Level|1|||
+
+## 巛 Flood
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Flood||River|
+|Kangxi Number|||47|
+|Wanikani Level|20|||
+
+Another form of 川
+
+
+## 工 Construction
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Construction||Work|
+|Kangxi Number|||48|
+|Wanikani Level|1|||
+
+## 己 Oneself
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Oneslef||Oneself|
+|Kangxi Number|||49|
+|Wanikani Level|7|||
+
+## 巾 Towel
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Towel||Turban|
+|Kangxi Number|||50|
+|Wanikani Level|3|||
+
+## 干 Dry
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Dry||Dry|
+|Kangxi Number|||51|
+|Wanikani Level|3|||
+
+
+## 幺 Poop
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Poop||Short Thread|
+|Kangxi Number|||52|
+|Wanikani Level|3|||
+
+## 广 Canopy
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Canopy||Dotted Cliff|
+|Kangxi Number|||53|
+|Wanikani Level|3|||
+
+## 廴 Yoga
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Canopy|||
+|Kangxi Number|||54|
+|Wanikani Level|12|||
+
+## 廾 Twenty
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Twenty||Arch|
+|Kangxi Number|||55|
+|Wanikani Level|5|||
+
+## 弋 Ceremony
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Ceremony||Shoot|
+|Kangxi Number|||56|
+|Wanikani Level|4|||
+
+## 弓 Bow
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bow||Bow|
+|Kangxi Number|||57|
+|Wanikani Level|2|||
+
+## 彐 Wolverine
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Wolverine||Snout|
+|Kangxi Number|||58|
+|Wanikani Level|5|||
+
+This is a transformed form of 彑
+
+## 彑 Shuriken
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Shuriken||Snout|
+|Kangxi Number|||58|
+|Wanikani Level|35|||
+
+## 彡
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hair||bristle|
+|Kangxi Number|||59|
+|Wanikani Level|2|||
+
+## 彳 Loiter
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Loiter||Step|
+|Kangxi Number|||60|
+|Wanikani Level|4|||
+
+## 忄 Soul
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Soul||Heart|
+|Kangxi Number|||61|
+|Wanikani Level|13|||
+
+This is a transformed form of 心
+
+## 扌 Fingers
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fingers||Hand|
+|Kangxi Number|||64|
+|Wanikani Level|3|||
+
+This is a transformed form of 手
+
+
+## 氵 Tsunami
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tsunami||Water|
+|Kangxi Number|||85|
+|Wanikani Level|5|||
+
+This is a transformed form of 水
+
+## 犭 Animal
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Animal||Dog|
+|Kangxi Number|||94|
+|Wanikani Level|6|||
+
+This is a transformed form of 犬
+
+## ⺿ Flowers
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Flowers||Grass|
+|Kangxi Number|||140|
+|Wanikani Level|4|||
+
+This is a transformed form of 艸
+
+## 阝 Building (Left)
+Building on the left and right are two separate Kangxi radicals.
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Building||Mound|
+|Kangxi Number|||170|
+|Wanikani Level|9|||
+
+Is a transformed version of 阜
+
+## 阝 Building (RIght)
+Building on the left and right are two separate Kangxi radicals.
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Building||City|
+|Kangxi Number|||163|
+|Wanikani Level|9|||
+
+Is a transformed version of 邑
+
+
+## 也 Alligator
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Alligator|||
+|Wanikani Level|4|||
+
+There is a kanji 也 that means 'to be'
+
+## 亡 Death
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Death|||
+|Wanikani Level|6|||
+
+There is a kanji 亡 That means death.
+
+## 及 Escalator
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Escalator|||
+|Wanikani Level|11|||
+
+There is a Kanji for this radical 及 that means reach out/exert
+
+## ✖ 久 Long Time
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✖|
+
+This is not a Wanikani or Kangxi radical. In Wanikani the radicals that compose it are 丿 and 入
+
+Kradfile includes this as a possible part.
+
+# Comparing 4 Stroke Radicals
+
+# Other Wanikani Radicals
+Wanikani introduces radicals that are not actually radicals in the traditional sense.
+Often these are either based on a kanji or is some prominant pattern that is common to multiple kanji but not a radical.
+
+These are presented in order of Wanikani level.
+
+## 丁 Street
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✖|✖|
+|Meaning|Street|||
+|Wanikani Level|2|||
+
+This radical is based on the kanji for street. When performing radical lookup in Jisho, it can be found by searching for 一 and 亅
+
+## L Lion
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✖|✖|
+|Meaning|Lion|||
+|Wanikani Level|6|||
+
+No consistent lookup for this. 一 and ｜ will sometimes pick these up. Sometimes 一 is not listed as one of the parts.
+
+
+
+# Introduction 2
+Foreign language learning has been a hobby of mine for some time. While there are a lot of tools and apps for doing this, most of these require regular physical interaction with a device and access to a screen. Increasingly I have wished that I could so some of this learning during activities where it is impracticle to interact with a device or view a screen (Such as exercising or driving).
+
+In response to this problem many companies and individuals put out lessons to teach basic grammer or vocablulary in the form of audio files. In my own experience I haven't found these to be all that effective. I would attribute that to these main reasons:
+* The  lesson is fixed and cannot be adapted depending on whether you get a question correct or incorrect. This can mean the lesson can spend too much time on something you already know, or go too fast through something you are less familiar with. Also if the lessons employ some kind of SRS intending you to do a lesson once a day, this gets broken if you take a long break.
+* The course content is fixed. This might not be such an issue for some, but is not ideal if you are the kind of person used to the flexibility of Anki allowing you to define the vocabulary or phrases from your favorite media that you want to learn.
+
+# Language Listening Project
+My first attempt to build something useful to me for language learning while exercising I called 'Language Listening'.
+Essentially you would provide to the program a list of English and Foreign Word pairs and it would produce and audio file that:
+* Used Text to Speech to say the english word and then say the foreign word twice afterwards.
+* The order of the words would be randomised.
+* There would be music in the background.
+
+One weekend I prepared an audio file of about 2h of words and then left the house to exercise, jogging and walking for about 5h.
+I ended up playing parts of the track multiple times and had these thoughts:
+* Without requiring user interaction, playing the file has limited long term usefullness for language learning. Eventually I found myself just beginning to ignore it.
+* Once you've played it a few times you start to get used to some of the word orderings and it doesn't feel random anymore.
+
+This confirmed to me that the second iteration of this should employ some kind of speech recognition to be more interactive.
+
+# Hands-Free Foreign Vocabulary Learning
+This is the plan for the next iteration of this idea.
+
+* The user provides a list of English and Foreign Word pairs and begins a session.
+* The app says the english word.
+* The user has limited time to say the Foreign pronounication.
+* Speech recognition used to provide feedback to the user.
+* Uses an SRS system meaning that if the word is determined to be correct it will take longer to appear again.
+
+Repeat these steps for the next word.
+
