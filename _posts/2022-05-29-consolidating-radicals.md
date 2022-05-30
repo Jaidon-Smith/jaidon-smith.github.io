@@ -602,7 +602,7 @@ Another form of 川
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Oneslef||Oneself|
+|Meaning|Oneself||Oneself|
 |Kangxi Number|||49|
 |Wanikani Level|7|||
 
@@ -648,7 +648,7 @@ Another form of 川
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Canopy|||
+|Meaning|Yoga||Long Stride|
 |Kangxi Number|||54|
 |Wanikani Level|12|||
 
@@ -839,6 +839,287 @@ This is not a Wanikani or Kangxi radical. In Wanikani the radicals that compose 
 Kradfile includes this as a possible part.
 
 # Comparing 4 Stroke Radicals
+
+## ⺹ Coffin
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Coffin||Old|
+|Kangxi Number|||125|
+|Wanikani Level|5|||
+
+## 心 Heart
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Heart||Heart|
+|Kangxi Number|||61|
+|Wanikani Level|3|||
+
+
+## 戈 Drunkard
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Drunkard||Halberd|
+|Kangxi Number|||62|
+|Wanikani Level|11|||
+
+## 戸 Door
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Door||Door|
+|Kangxi Number|||63|
+|Wanikani Level|3|||
+
+
+## 手 Hand
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hand||Hand|
+|Kangxi Number|||64|
+|Wanikani Level|2|||
+
+
+## 支 Branch
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Branch||Branch|
+|Kangxi Number|||65|
+|Wanikani Level|4|||
+
+## 文 Writing
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Writing||Script|
+|Kangxi Number|||67|
+|Wanikani Level|2|||
+
+## 斗 Ladle
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Ladle||Dipper|
+|Kangxi Number|||68|
+|Wanikani Level|6|||
+
+## 斤 Axe
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Axe||Axe|
+|Kangxi Number|||69|
+|Wanikani Level|5|||
+
+## 方 Direction
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Direction||Square|
+|Kangxi Number|||70|
+|Wanikani Level|3|||
+
+
+## ✖ 无 Not
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Not|
+|Kangxi Number|||71|
+
+## 日 Sun
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sun||Sun|
+|Kangxi Number|||72|
+|Wanikani Level|1|||
+
+## 月 Moon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Moon||Moon|
+|Kangxi Number|||74|
+|Wanikani Level|2|||
+
+## 木 Tree
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tree||Tree|
+|Kangxi Number|||75|
+|Wanikani Level|1|||
+
+## 欠 Lack
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Lack||Lack|
+|Kangxi Number|||76|
+|Wanikani Level|6|||
+
+## 止 Stop
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Stop||Stop|
+|Kangxi Number|||77|
+|Wanikani Level|2|||
+
+
+## 歹 Death
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Yakuza||Death|
+|Kangxi Number|||78|
+|Wanikani Level|6|||
+
+## 殳 Weapon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Weapon||Weapon|
+|Kangxi Number|||79|
+|Wanikani Level|8|||
+
+
+## 比 Compare
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Compare||Compare|
+|Kangxi Number|||81|
+|Wanikani Level|8|||
+
+## 毛 Fur
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fur||Fur|
+|Kangxi Number|||82|
+|Wanikani Level|3|||
+
+## 氏 Clan
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Clan||Clan|
+|Kangxi Number|||83|
+|Wanikani Level|7|||
+
+## 气 Steam
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Steam||Steam|
+|Kangxi Number|||84|
+|Wanikani Level|4|||
+
+## 水 Water
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Water||Water|
+|Kangxi Number|||85|
+|Wanikani Level|2|||
+
+## 火 Fire
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fire||Fire|
+|Kangxi Number|||86|
+|Wanikani Level|2|||
+
+## 灬 Boil
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Boil||Fire|
+|Kangxi Number|||86|
+|Wanikani Level|6|||
+
+This is a transformation of 火
+
+## 爪 Claw
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Claw||Claw|
+|Kangxi Number|||87|
+|Wanikani Level|34|||
+
+## 爫 Cleat
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cleat||Claw|
+|Kangxi Number|||87|
+|Wanikani Level|34|||
+
+This is a transformation of 爪
+
+## 父 Father
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Father||Father|
+|Kangxi Number|||88|
+|Wanikani Level|3|||
+
+## 丬 Icicle
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Icicle||Split Wood|
+|Kangxi Number|||90|
+|Wanikani Level|22|||
+
+This is a transformation of 爿
+
+## 片 One Sided
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|One Sided||Slice|
+|Kangxi Number|||91|
+|Wanikani Level|30|||
 
 # Other Wanikani Radicals
 Wanikani introduces radicals that are not actually radicals in the traditional sense.
