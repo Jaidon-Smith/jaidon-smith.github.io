@@ -699,7 +699,7 @@ This is a transformed form of 彑
 |Kangxi Number|||58|
 |Wanikani Level|35|||
 
-## 彡
+## 彡 Hair
 
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
@@ -1120,6 +1120,96 @@ This is a transformation of 爿
 |Meaning|One Sided||Slice|
 |Kangxi Number|||91|
 |Wanikani Level|30|||
+
+## 牙 Fang
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fang||Fang|
+|Kangxi Number|||92|
+|Wanikani Level|31|||
+
+## 牛 Cow
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cow||Cow|
+|Kangxi Number|||93|
+|Wanikani Level|2|||
+
+## 牛 Cow
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Cow||Cow|
+|Kangxi Number|||93|
+|Wanikani Level|2|||
+
+## 犬 Dog
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Dog||Dog|
+|Kangxi Number|||94|
+|Wanikani Level|2|||
+
+
+## ⺭ Spirit
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Dog||Dog|
+|Kangxi Number|||113|
+|Wanikani Level|4|||
+
+This is a transformation of 示
+
+## 王 King
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|King||Jade|
+|Kangxi Number|||96|
+|Wanikani Level|2|||
+
+This is another form of 玉
+
+## 元 Origin
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Origin|||
+|Wanikani Level|3|||
+
+No Kangxi for this radical. There is a kanji for this radical that is composed of 儿 and 二
+
+## 井 Well
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Well|||
+|Wanikani Level|14|||
+
+No Kangxi for this radical. On Jisho this is listed as being composed of the radicals 二, 丨 and 丿
+
+## 王 King
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|King||Jade|
+|Kangxi Number|||96|
+|Wanikani Level|2|||
+
+
 
 # Other Wanikani Radicals
 Wanikani introduces radicals that are not actually radicals in the traditional sense.
