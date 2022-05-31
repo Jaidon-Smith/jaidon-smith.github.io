@@ -1157,7 +1157,6 @@ This is a transformation of 爿
 |Kangxi Number|||94|
 |Wanikani Level|2|||
 
-
 ## ⺭ Spirit
 
 ||Wanikani|Jisho|Kangxi|
@@ -1188,7 +1187,7 @@ This is another form of 玉
 |Meaning|Origin|||
 |Wanikani Level|3|||
 
-No Kangxi for this radical. There is a kanji for this radical that is composed of 儿 and 二
+No Kangxi for this radical. There is a kanji with the same meaning for this radical that is composed of 儿 and 二
 
 ## 井 Well
 
@@ -1199,15 +1198,103 @@ No Kangxi for this radical. There is a kanji for this radical that is composed o
 |Wanikani Level|14|||
 
 No Kangxi for this radical. On Jisho this is listed as being composed of the radicals 二, 丨 and 丿
+There is a kanji with the same meaning.
 
-## 王 King
+## 勿 Wing
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Wing|||
+|Wanikani Level|7|||
+
+The kanji for this radical means 'not'
+
+## 五 Five
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Five|||
+|Wanikani Level|2|||
+
+## 屯 Barracks
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Five|||
+|Wanikani Level|28|||
+
+There is a kanji with this meaning.
+Jisho lists the parts as 乙 ノ 凵 屯
+
+## 巴 Bed
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Five|||
+|Wanikani Level|4|||
+
+## 毋 Window
 
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|King||Jade|
-|Kangxi Number|||96|
-|Wanikani Level|2|||
+|Meaning|Window||Do Not|
+|Kangxi Number|||80|
+|Wanikani Level|5|||
+
+# Comparing 5 Stroke Radicals
+
+## 玄 Mysterious
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Mysterious||Profound|
+|Kangxi Number|||95|
+|Wanikani Level|48|||
+
+
+## 瓜 Melon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Melon||Melon|
+|Kangxi Number|||97|
+|Wanikani Level|42|||
+
+
+## ✖ 瓦 Tile
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Tile|
+|Kangxi Number|||98|
+
+
+## 甘 Sweet
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sweet||Sweet|
+|Kangxi Number|||99|
+|Wanikani Level|36|||
+
+
+## 生 Life
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Life||Life|
+|Kangxi Number|||100|
+|Wanikani Level|3|||
 
 
 
