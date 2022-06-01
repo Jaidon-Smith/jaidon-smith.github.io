@@ -1139,15 +1139,6 @@ This is a transformation of 爿
 |Kangxi Number|||93|
 |Wanikani Level|2|||
 
-## 牛 Cow
-
-||Wanikani|Jisho|Kangxi|
-|-|-|-|-|
-|Availability|✔|✔|✔|
-|Meaning|Cow||Cow|
-|Kangxi Number|||93|
-|Wanikani Level|2|||
-
 ## 犬 Dog
 
 ||Wanikani|Jisho|Kangxi|
@@ -1162,7 +1153,7 @@ This is a transformation of 爿
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Dog||Dog|
+|Meaning|Spirit||Spirit|
 |Kangxi Number|||113|
 |Wanikani Level|4|||
 
@@ -1296,6 +1287,328 @@ Jisho lists the parts as 乙 ノ 凵 屯
 |Kangxi Number|||100|
 |Wanikani Level|3|||
 
+## 用 Task
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Task||Use|
+|Kangxi Number|||101|
+|Wanikani Level|3|||
+
+	
+## 田 Rice Paddy
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Rice Paddy||Field|
+|Kangxi Number|||102|
+|Wanikani Level|2|||
+
+## 疋 Coat Rack
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Coat Rack||Bolt of Cloth|
+|Kangxi Number|||103|
+|Wanikani Level|9|||
+
+
+## 疒 Sickness
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sickness||Sickness|
+|Kangxi Number|||104|
+|Wanikani Level|10|||
+
+## 癶 Tent
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tent||Footsteps|
+|Kangxi Number|||105|
+|Wanikani Level|9|||
+
+## 癶 Tent
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tent||Footsteps|
+|Kangxi Number|||105|
+|Wanikani Level|9|||
+
+## 白 White
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|White||White|
+|Kangxi Number|||106|
+|Wanikani Level|2|||
+
+## 皮 Skin
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|White||White|
+|Kangxi Number|||107|
+|Wanikani Level|11|||
+
+## 皿 Plate
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Plate||Dish|
+|Kangxi Number|||108|
+|Wanikani Level|11|||
+
+## 目 Eye
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Plate||Dish|
+|Kangxi Number|||109|
+|Wanikani Level|2|||
+
+## 矛 Spear
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Spear||Spear|
+|Kangxi Number|||110|
+|Wanikani Level|21|||
+
+## 矢 Arrow
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Arrow||Arrow|
+|Kangxi Number|||111|
+|Wanikani Level|3|||
+
+## 石 Stone
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Stone||Stone|
+|Kangxi Number|||112|
+|Wanikani Level|2|||
+
+## 示 Jackhammer
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Jackhammer||Spirit|
+|Kangxi Number|||113|
+|Wanikani Level|12|||
+
+## 示 Jackhammer
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Jackhammer||Spirit|
+|Kangxi Number|||113|
+|Wanikani Level|12|||
+
+
+## ✖ 禸 Track
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Track|
+|Kangxi Number|||114|
+
+## 禾 Grain
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Grain||Grain|
+|Kangxi Number|||115|
+|Wanikani Level|6|||
+
+## 穴 Hole
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hole||Cave|
+|Kangxi Number|||116|
+|Wanikani Level|8|||
+
+
+## 立 Stand
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hole||Cave|
+|Kangxi Number|||117|
+|Wanikani Level|2|||
+
+礻
+
+## 立 Stand
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Hole||Cave|
+|Kangxi Number|||117|
+|Wanikani Level|2|||
+
+## ⻂ Clothers
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Clothes|
+|Kangxi Number|||118|
+
+This is similar to spirit but there is an extra stroke.
+Wanikani does not distinguish between this and spirit.
+
+## 世 World
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|World|||
+|Wanikani Level|4|||
+
+There is a kanji with this meaning.
+
+## 巨 Giant
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|World|||
+|Wanikani Level|28|||
+
+There is a kanji with this meaning.
+
+
+## 冊 Bookshelf
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|World|||
+|Wanikani Level|28|||
+
+There is a kanji that means 'counter for books'.
+
+
+## ✖ 母 Do Not/Mother
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|||Do Not/Mother|
+|Kangxi Number|||80|
+
+Wanikani has a kanji for mother.
+
+## ⺫ Net
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Net||Net|
+|Kangxi Number|||122|
+|Wanikani Level|8|||
+
+This is a form of 网
+
+# Comparing 6 Stroke Radicals
+
+## 竹 Bamboo
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bamboo||Bamboo|
+|Kangxi Number|||118|
+|Wanikani Level|4|||
+
+## 米 Rice
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Rice||Rice|
+|Kangxi Number|||119|
+|Wanikani Level|4|||
+
+## Thread
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Thread||Silk|
+|Kangxi Number|||120|
+|Wanikani Level|4|||
+
+## 缶 Can
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Can||Jar|
+|Kangxi Number|||121|
+|Wanikani Level|44|||
+
+## 羽 Feathers
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Feathers||Feather|
+|Kangxi Number|||124|
+|Wanikani Level|5|||
+
+## 而 Rake
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Rank||And|
+|Kangxi Number|||126|
+|Wanikani Level|27|||
+
+## 耒 Plough
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Plough||Plough|
+|Kangxi Number|||127|
+|Wanikani Level|43|||
+
+## 耳 Ear
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Ear||Ear|
+|Kangxi Number|||128|
+|Wanikani Level|4|||
 
 
 # Other Wanikani Radicals
