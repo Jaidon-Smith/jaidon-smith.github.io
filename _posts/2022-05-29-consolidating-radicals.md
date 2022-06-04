@@ -37,8 +37,6 @@ I follow the kradfile ordering of the radicals.
 |Meaning|Ground||One|
 |Kangxi Number|||1|
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_1](https://en.wikipedia.org/wiki/Radical_1)
-
 ## 丨 Stick
 
 ||Wanikani|Jisho|Kangxi|
@@ -46,8 +44,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_1](http
 |Availability|✔|✔|✔|
 |Meaning|Stick||Line|
 |Kangxi Number|||2|
-
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_2](https://en.wikipedia.org/wiki/Radical_2)
 
 ## 丶 Drop
 
@@ -57,8 +53,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_2](http
 |Meaning|Drop||Dot|
 |Kangxi Number|||3|
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_3](https://en.wikipedia.org/wiki/Radical_3)
-
 ##	丿 Slide
 
 ||Wanikani|Jisho|Kangxi|
@@ -66,8 +60,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_3](http
 |Availability|✔|✔|✔|
 |Meaning|Slide||Slash|
 |Kangxi Number|||4|
-
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_4](https://en.wikipedia.org/wiki/Radical_4)
 
 ##	乙 Nose
 
@@ -78,8 +70,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_4](http
 |Kangxi Number|||5|
 |Wanikani Level|29|||
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_5](https://en.wikipedia.org/wiki/Radical_5)
-
 ##	乚 Umbrella
 
 ||Wanikani|Jisho|Kangxi|
@@ -89,10 +79,7 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_5](http
 |Kangxi Number|||5|
 |Wanikani Level|4|||
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_5](https://en.wikipedia.org/wiki/Radical_5)
-
 The reason that this is not available in Jisho is that kradfile does not distinguish between 乙 and 乚. The words that Wanikani lists as using 乚, in Jisho this uses 乙.
-
 
 ##	亅 Barb
 
@@ -102,8 +89,6 @@ The reason that this is not available in Jisho is that kradfile does not disting
 |Meaning|Barb||Hook|
 |Kangxi Number|||6|
 |Wanikani Level|1|||
-
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_6](https://en.wikipedia.org/wiki/Radical_6)
 
 # Comparing 2 Stroke Radicals
 
@@ -116,8 +101,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_6](http
 |Kangxi Number|||7|
 |Wanikani Level|1|||
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_7](https://en.wikipedia.org/wiki/Radical_7)
-
 ##	亠 Lid
 
 ||Wanikani|Jisho|Kangxi|
@@ -126,8 +109,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_7](http
 |Meaning|Lid||Lid|
 |Kangxi Number|||8|
 |Wanikani Level|1|||
-
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_8](https://en.wikipedia.org/wiki/Radical_8)
 
 ##	人 Person
 
@@ -138,8 +119,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_8](http
 |Kangxi Number|||9|
 |Wanikani Level|1|||
 
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_9](https://en.wikipedia.org/wiki/Radical_9)
-
 ##	亻 Leader
 
 ||Wanikani|Jisho|Kangxi|
@@ -148,8 +127,6 @@ The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_9](http
 |Meaning|Leader||Man|
 |Kangxi Number|||9|
 |Wanikani Level|4|||
-
-The Kanxi link to this radical is [https://en.wikipedia.org/wiki/Radical_9](https://en.wikipedia.org/wiki/Radical_9)
 
 This is a transformed version of 人
 
@@ -392,7 +369,7 @@ Stairs does not appear in the Kangxi radicals.
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
-|Meaning|Stairs|||
+|Meaning|Gun|||
 |Wanikani Level|1|||
 
 Gun does not appear in the Kangxi radicals.
@@ -704,7 +681,7 @@ This is a transformed form of 彑
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Hair||bristle|
+|Meaning|Hair||Bristle|
 |Kangxi Number|||59|
 |Wanikani Level|2|||
 
@@ -785,7 +762,7 @@ Building on the left and right are two separate Kangxi radicals.
 
 Is a transformed version of 阜
 
-## 阝 Building (RIght)
+## 阝 Building (Right)
 Building on the left and right are two separate Kangxi radicals.
 
 ||Wanikani|Jisho|Kangxi|
@@ -1225,7 +1202,7 @@ Jisho lists the parts as 乙 ノ 凵 屯
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
-|Meaning|Five|||
+|Meaning|Bed|||
 |Wanikani Level|4|||
 
 ## 毋 Window
@@ -1357,7 +1334,7 @@ Jisho lists the parts as 乙 ノ 凵 屯
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|White||White|
+|Meaning|Skin||Skin|
 |Kangxi Number|||107|
 |Wanikani Level|11|||
 
@@ -1375,7 +1352,7 @@ Jisho lists the parts as 乙 ノ 凵 屯
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Plate||Dish|
+|Meaning|Eye||Eye|
 |Kangxi Number|||109|
 |Wanikani Level|2|||
 
@@ -1415,16 +1392,6 @@ Jisho lists the parts as 乙 ノ 凵 屯
 |Kangxi Number|||113|
 |Wanikani Level|12|||
 
-## 示 Jackhammer
-
-||Wanikani|Jisho|Kangxi|
-|-|-|-|-|
-|Availability|✔|✔|✔|
-|Meaning|Jackhammer||Spirit|
-|Kangxi Number|||113|
-|Wanikani Level|12|||
-
-
 ## ✖ 禸 Track
 
 ||Wanikani|Jisho|Kangxi|
@@ -1457,11 +1424,9 @@ Jisho lists the parts as 乙 ノ 凵 屯
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Hole||Cave|
+|Meaning|Stand||Stand|
 |Kangxi Number|||117|
 |Wanikani Level|2|||
-
-礻
 
 ## 立 Stand
 
@@ -1472,7 +1437,7 @@ Jisho lists the parts as 乙 ノ 凵 屯
 |Kangxi Number|||117|
 |Wanikani Level|2|||
 
-## ⻂ Clothers
+## ⻂ Clothes
 
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
@@ -1498,7 +1463,7 @@ There is a kanji with this meaning.
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
-|Meaning|World|||
+|Meaning|Giant|||
 |Wanikani Level|28|||
 
 There is a kanji with this meaning.
@@ -1509,7 +1474,7 @@ There is a kanji with this meaning.
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
-|Meaning|World|||
+|Meaning|Bookshelf|||
 |Wanikani Level|28|||
 
 There is a kanji that means 'counter for books'.
@@ -1588,7 +1553,7 @@ This is a form of 网
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
-|Meaning|Rank||And|
+|Meaning|Rake||And|
 |Kangxi Number|||126|
 |Wanikani Level|27|||
 
@@ -1611,6 +1576,576 @@ This is a form of 网
 |Wanikani Level|4|||
 
 
+## 聿 Brush
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Brush||Brush|
+|Kangxi Number|||129|
+|Wanikani Level|9|||
+
+## 肉 Meat
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Meat||Meat|
+|Kangxi Number|||130|
+|Wanikani Level|5|||
+
+## 臣 Servant
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Servant||Minister|
+|Kangxi Number|||131|
+|Wanikani Level|29|||
+
+## 自 Self
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Self||Self|
+|Kangxi Number|||132|
+|Wanikani Level|5|||
+
+## 至 Mole
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Mole||Arrive|
+|Kangxi Number|||133|
+|Wanikani Level|20|||
+
+## ✖ 臼 Mortar
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|||Mortar|
+|Kangxi Number|||134|
+
+## 舌 Tongue
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tongue||Tongue|
+|Kangxi Number|||135|
+|Wanikani Level|6|||
+
+## 舛 Dance
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Dance||Oppose|
+|Kangxi Number|||136|
+|Wanikani Level|36|||
+
+## 舟 Boat
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Boat||Boat|
+|Kangxi Number|||137|
+|Wanikani Level|7|||
+
+## 艮 Root
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Root||Stopping|
+|Kangxi Number|||138|
+|Wanikani Level|11|||
+
+## 色 Color
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Color||Color|
+|Kangxi Number|||139|
+|Wanikani Level|5|||
+
+## 虍 Tiger
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tiger||Tiger|
+|Kangxi Number|||140|
+|Wanikani Level|17|||
+
+## 虫 Insect
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Insect||Insect|
+|Kangxi Number|||142|
+|Wanikani Level|4|||
+
+## 血 Blood
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Blood||Blood|
+|Kangxi Number|||143|
+|Wanikani Level|6|||
+
+## 行 Go
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Go||Walk/Enclosure|
+|Kangxi Number|||144|
+|Wanikani Level|5|||
+
+## 衣 Kick
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Kick||Clothes|
+|Kangxi Number|||145|
+|Wanikani Level|5|||
+
+Wanikani just includes the bottom part of this but jisho lookup includes the full which is the radical for clothes.
+
+## 覀 Helicopter
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Helicopter||Cover|
+|Kangxi Number|||146|
+|Wanikani Level|9|||
+
+This is a transformation of 襾.
+The kanji that use 覀 will appear when selecting 襾.
+
+# Comparing 7 Stroke Radicals
+
+## 見 See
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|See||See|
+|Kangxi Number|||147|
+|Wanikani Level|4|||
+
+## 角 Angle
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Angle||Horn|
+|Kangxi Number|||148|
+|Wanikani Level|21|||
+
+## 言
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Say||Speech|
+|Kangxi Number|||149|
+|Wanikani Level|5|||
+
+## 谷 Valley
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Valley||Valley|
+|Kangxi Number|||150|
+|Wanikani Level|16|||
+
+## 豆 Bean
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bean||Bean|
+|Kangxi Number|||151|
+|Wanikani Level|10|||
+
+## 豕 Pig
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Pig||Pig|
+|Kangxi Number|||152|
+|Wanikani Level|7|||
+
+## 豸 Badger
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Badger||Badger|
+|Kangxi Number|||153|
+|Wanikani Level|43|||
+
+## 貝 Shellfish
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Shellfish||Shell|
+|Kangxi Number|||154|
+|Wanikani Level|4|||
+
+## 赤 Red
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Red||Red|
+|Kangxi Number|||155|
+|Wanikani Level|4|||
+
+## 走 Run
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Run||Run|
+|Kangxi Number|||156|
+|Wanikani Level|5|||
+
+## 足 Foot
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Foot||Foot|
+|Kangxi Number|||157|
+|Wanikani Level|4|||
+
+## 身 Body
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Body||Body|
+|Kangxi Number|||158|
+|Wanikani Level|13|||
+
+## 車 Car
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Car||Cart|
+|Kangxi Number|||159|
+|Wanikani Level|4|||
+
+## 辛 Spicy
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Spicy||Bitter|
+|Kangxi Number|||160|
+|Wanikani Level|9|||
+
+## 辰 Landslide
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Landslide||Morning|
+|Kangxi Number|||161|
+|Wanikani Level|10|||
+
+## 酉 Alcohol
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Alcohol||Wine|
+|Kangxi Number|||164|
+|Wanikani Level|10|||
+
+## 釆 Sickle
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sickle||Distinguish|
+|Kangxi Number|||165|
+|Wanikani Level|8|||
+
+## 里 Village
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Village||Village|
+|Kangxi Number|||166|
+|Wanikani Level|5|||
+
+## 麦 Wheat
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Wheat||Wheat|
+|Kangxi Number|||199|
+|Wanikani Level|40|||
+
+# Comparing 8 Stroke Radicals
+
+## 金 Gold
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Gold||Gold|
+|Kangxi Number|||167|
+|Wanikani Level|5|||
+
+## 長 Long
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Long||Long|
+|Kangxi Number|||168|
+|Wanikani Level|6|||
+
+## 門 Gate
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Gate||Gate|
+|Kangxi Number|||169|
+|Wanikani Level|7|||
+
+## ✖ 隶 Slave
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Slave|
+|Kangxi Number|||171|
+
+## 隹 Turkey
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Turkey||Short-Tailed Bird|
+|Kangxi Number|||172|
+|Wanikani Level|10|||
+
+## 雨 Rain
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Rain||Rain|
+|Kangxi Number|||173|
+|Wanikani Level|5|||
+
+## 青 Blue
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Blue||Blue|
+|Kangxi Number|||174|
+|Wanikani Level|5|||
+
+## 非 Criminal
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Criminal||Wrong|
+|Kangxi Number|||175|
+|Wanikani Level|17|||
+
+## 岡 Hill
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Hill|||
+|Wanikani Level|39|||
+
+## 免 Excuse
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Excuse|||
+|Wanikani Level|12|||
+
+## 斉 Simultaneous
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Simultaneous||Soon|
+|Kangxi Number|||210|
+|Wanikani Level|21|||
+
+# Comparing 9 Stroke Radicals
+
+## 面 Face
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Face||Face|
+|Kangxi Number|||176|
+|Wanikani Level|16|||
+
+## 革 Leather
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Leather||Leather|
+|Kangxi Number|||177|
+|Wanikani Level|23|||
+
+## 韋 Korea
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Korea||Tanned Leather|
+|Kangxi Number|||178|
+|Wanikani Level|24|||
+
+## 音 Sound
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Sound||Sound|
+|Kangxi Number|||180|
+|Wanikani Level|11|||
+
+## 頁 Geoduck
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Geoduck||Leaf|
+|Kangxi Number|||181|
+|Wanikani Level|10|||
+
+## 風 Wind
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Wind||Wind|
+|Kangxi Number|||182|
+|Wanikani Level|44|||
+
+## 飛 Fly
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fly||Fly|
+|Kangxi Number|||183|
+|Wanikani Level|20|||
+
+## 食 Eat
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Eat||Eat|
+|Kangxi Number|||184|
+|Wanikani Level|6|||
+
+## 首 Neck
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Neck||Head|
+|Kangxi Number|||185|
+|Wanikani Level|6|||
+
+## ✖ 香 Fragrant
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Fragrant|
+|Kangxi Number|||186|
+
+## 品 Products
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Products|||
+|Wanikani Level|13|||
+
+# Comparing 10 Stroke Radicals
+
+## 馬 Horse
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Horse||Horse|
+|Kangxi Number|||187|
+|Wanikani Level|8|||
+
+## 骨 Bone
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bone||Bone|
+|Kangxi Number|||188|
+|Wanikani Level|42|||
+
+## 高 Tall
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Tall||Tall|
+|Kangxi Number|||189|
+|Wanikani Level|53|||
+
+## ✖ 髟 Hair
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Hair|
+|Kangxi Number|||190|
+
+
+## ✖ 鬥 Fight
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Fight|
+|Kangxi Number|||191|
+
+## ✖ 鬯 Sacrificial Wine
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Sacrificial Wine|
+|Kangxi Number|||192|
+
+## 鬲 Bully
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bully||Cauldron|
+|Kangxi Number|||193|
+|Wanikani Level|31|||
+
+## 鬼 Demon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Demon||Ghost|
+|Kangxi Number|||194|
+|Wanikani Level|23|||
+
+## 竜 Dragon
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Dragon|||
+|Wanikani Level|44|||
+
+# Comparing 11 Stroke Radicals
+
+## 魚 Fish
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Fish||Fish|
+|Kangxi Number|||195|
+|Wanikani Level|7|||
+
+## 鳥 Bird
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Bird||Bird|
+|Kangxi Number|||196|
+|Wanikani Level|7|||
+
 # Other Wanikani Radicals
 Wanikani introduces radicals that are not actually radicals in the traditional sense.
 Often these are either based on a kanji or is some prominant pattern that is common to multiple kanji but not a radical.
@@ -1621,7 +2156,7 @@ These are presented in order of Wanikani level.
 
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
-|Availability|✔|✖|✖|
+|Availability|✔|✖||
 |Meaning|Street|||
 |Wanikani Level|2|||
 
