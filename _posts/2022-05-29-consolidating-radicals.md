@@ -1595,6 +1595,7 @@ This is a form of 网
 |Wanikani Level|5|||
 
 ## 臣 Servant
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1603,6 +1604,7 @@ This is a form of 网
 |Wanikani Level|29|||
 
 ## 自 Self
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1611,6 +1613,7 @@ This is a form of 网
 |Wanikani Level|5|||
 
 ## 至 Mole
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1619,6 +1622,7 @@ This is a form of 网
 |Wanikani Level|20|||
 
 ## ✖ 臼 Mortar
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
@@ -1626,6 +1630,7 @@ This is a form of 网
 |Kangxi Number|||134|
 
 ## 舌 Tongue
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1634,6 +1639,7 @@ This is a form of 网
 |Wanikani Level|6|||
 
 ## 舛 Dance
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1642,6 +1648,7 @@ This is a form of 网
 |Wanikani Level|36|||
 
 ## 舟 Boat
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1650,6 +1657,7 @@ This is a form of 网
 |Wanikani Level|7|||
 
 ## 艮 Root
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1658,6 +1666,7 @@ This is a form of 网
 |Wanikani Level|11|||
 
 ## 色 Color
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1666,6 +1675,7 @@ This is a form of 网
 |Wanikani Level|5|||
 
 ## 虍 Tiger
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1674,6 +1684,7 @@ This is a form of 网
 |Wanikani Level|17|||
 
 ## 虫 Insect
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1682,6 +1693,7 @@ This is a form of 网
 |Wanikani Level|4|||
 
 ## 血 Blood
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1690,6 +1702,7 @@ This is a form of 网
 |Wanikani Level|6|||
 
 ## 行 Go
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1698,6 +1711,7 @@ This is a form of 网
 |Wanikani Level|5|||
 
 ## 衣 Kick
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1708,6 +1722,7 @@ This is a form of 网
 Wanikani just includes the bottom part of this but jisho lookup includes the full which is the radical for clothes.
 
 ## 覀 Helicopter
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1721,6 +1736,7 @@ The kanji that use 覀 will appear when selecting 襾.
 # Comparing 7 Stroke Radicals
 
 ## 見 See
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1729,6 +1745,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|4|||
 
 ## 角 Angle
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1736,7 +1753,8 @@ The kanji that use 覀 will appear when selecting 襾.
 |Kangxi Number|||148|
 |Wanikani Level|21|||
 
-## 言
+## 言 Say
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1745,6 +1763,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 谷 Valley
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1753,6 +1772,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|16|||
 
 ## 豆 Bean
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1761,6 +1781,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|10|||
 
 ## 豕 Pig
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1769,6 +1790,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|7|||
 
 ## 豸 Badger
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1777,6 +1799,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|43|||
 
 ## 貝 Shellfish
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1785,6 +1808,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|4|||
 
 ## 赤 Red
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1793,6 +1817,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|4|||
 
 ## 走 Run
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1801,6 +1826,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 足 Foot
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1809,6 +1835,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|4|||
 
 ## 身 Body
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1817,6 +1844,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|13|||
 
 ## 車 Car
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1825,6 +1853,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|4|||
 
 ## 辛 Spicy
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1833,6 +1862,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|9|||
 
 ## 辰 Landslide
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1841,6 +1871,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|10|||
 
 ## 酉 Alcohol
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1849,6 +1880,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|10|||
 
 ## 釆 Sickle
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1857,6 +1889,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|8|||
 
 ## 里 Village
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1865,6 +1898,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 麦 Wheat
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1875,6 +1909,7 @@ The kanji that use 覀 will appear when selecting 襾.
 # Comparing 8 Stroke Radicals
 
 ## 金 Gold
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1883,6 +1918,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 長 Long
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1891,6 +1927,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|6|||
 
 ## 門 Gate
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1907,6 +1944,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Kangxi Number|||171|
 
 ## 隹 Turkey
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1915,6 +1953,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|10|||
 
 ## 雨 Rain
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1923,6 +1962,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 青 Blue
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1931,6 +1971,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|5|||
 
 ## 非 Criminal
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1939,6 +1980,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|17|||
 
 ## 岡 Hill
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
@@ -1946,6 +1988,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|39|||
 
 ## 免 Excuse
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
@@ -1953,6 +1996,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|12|||
 
 ## 斉 Simultaneous
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1963,6 +2007,7 @@ The kanji that use 覀 will appear when selecting 襾.
 # Comparing 9 Stroke Radicals
 
 ## 面 Face
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1971,6 +2016,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|16|||
 
 ## 革 Leather
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1979,6 +2025,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|23|||
 
 ## 韋 Korea
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1987,6 +2034,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|24|||
 
 ## 音 Sound
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -1995,6 +2043,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|11|||
 
 ## 頁 Geoduck
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2003,6 +2052,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|10|||
 
 ## 風 Wind
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2011,6 +2061,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|44|||
 
 ## 飛 Fly
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2019,6 +2070,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|20|||
 
 ## 食 Eat
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2027,6 +2079,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|6|||
 
 ## 首 Neck
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2043,6 +2096,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Kangxi Number|||186|
 
 ## 品 Products
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✖|
@@ -2052,6 +2106,7 @@ The kanji that use 覀 will appear when selecting 襾.
 # Comparing 10 Stroke Radicals
 
 ## 馬 Horse
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2060,6 +2115,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|8|||
 
 ## 骨 Bone
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2068,6 +2124,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|42|||
 
 ## 高 Tall
+
 ||Wanikani|Jisho|Kangxi|
 |-|-|-|-|
 |Availability|✔|✔|✔|
@@ -2147,6 +2204,7 @@ The kanji that use 覀 will appear when selecting 襾.
 |Wanikani Level|7|||
 
 # Other Wanikani Radicals
+
 Wanikani introduces radicals that are not actually radicals in the traditional sense.
 Often these are either based on a kanji or is some prominant pattern that is common to multiple kanji but not a radical.
 
