@@ -2203,6 +2203,169 @@ The kanji that use 覀 will appear when selecting 襾.
 |Kangxi Number|||196|
 |Wanikani Level|7|||
 
+## ✖ 鹵 Salt
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Salt|
+|Kangxi Number|||197|
+
+## ✖ 鹿 Deer
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Deer|
+|Kangxi Number|||198|
+
+Wanikani has a kanji that is this radical
+
+## ✖ 麻 Hemp
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Hemp|
+|Kangxi Number|||200|
+
+Wanikani has a kanji that is this radical
+
+## 亀 Turtle
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Dragon|||
+|Wanikani Level|35|||
+
+## 啇 Mohawk
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Dragon|||
+|Wanikani Level|21|||
+
+## 黄 Yellow
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Dragon|||
+|Wanikani Level|7|||
+
+## 黒 Black
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Dragon|||
+|Wanikani Level|7|||
+
+# Comparing 12 or Higher Stroke Radicals
+
+## ✖ 黍 Millet
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Hemp|
+|Kangxi Number|||202|
+
+
+## ✖ 黹 Embroidery
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Embroidery|
+|Kangxi Number|||204|
+
+## 無 Nothing
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Nothing|||
+|Wanikani Level|17|||
+
+Kanji that is the same as this radical
+
+## 歯 Tooth
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✖|
+|Meaning|Tooth|||
+|Wanikani Level|38|||
+
+Kanji that is the same as this radical
+
+## ✖ 黽 Frog
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Frog|
+|Kangxi Number|||205|
+
+## ✖ 鼎 Tripod
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Tripod|
+|Kangxi Number|||206|
+
+## ✖ 鼓 Drum
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Drum|
+|Kangxi Number|||207|
+
+While no radical on Wanikani, they do have the kanji for this.
+
+## ✖ 鼠 Rat
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Rat|
+|Kangxi Number|||208|
+
+## ✖ 鼻 Nose
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Nose|
+|Kangxi Number|||209|
+
+While no radical on Wanikani, they do have the kanji for this.
+
+## 斉 Simultaneous
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✔|✔|✔|
+|Meaning|Simultaneous||Even|
+|Kangxi Number|||210|
+|Wanikani Level|21|||
+
+Main form is 齊
+
+## ✖ 龠 Flute
+
+||Wanikani|Jisho|Kangxi|
+|-|-|-|-|
+|Availability|✖|✔|✔|
+|Meaning|||Flute|
+|Kangxi Number|||214|
+
+
+
+
+
+
 # Other Wanikani Radicals
 
 Wanikani introduces radicals that are not actually radicals in the traditional sense.
